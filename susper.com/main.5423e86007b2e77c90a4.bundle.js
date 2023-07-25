@@ -46404,7 +46404,7 @@ webpackJsonp([0], {
             Bi = function() {},
             Gi = {
                 susper: {
-                    site: "susper.com",
+                    site: "#",
                     newsFile: ""
                 },
                 yacy: {
@@ -46414,39 +46414,39 @@ webpackJsonp([0], {
                     websearch_api: "yacy-websearch.net"
                 },
                 fossasia: {
-                    site: "#",
-                    blog: "#",
-                    labs: "#"
+                    // site: "fossasia.org",
+                    // blog: "blog.fossasia.org",
+                    // labs: "labs.fossasia.org"
                 },
                 loklak: {
-                    site: "#"
+                    // site: "loklak.org"
                 },
                 susi: {
-                    site: "#"
+                    site: "chat.susi.ai"
                 },
-                explorer: {
-                    site: "#"
+                eventyay: {
+                    site: "eventyay.com"
                 },
-                DNV: {
-                    site: "#"
+                pslab: {
+                    site: "pslab.io"
                 },
-                About: {
-                    site: "#"
+                badgeyay: {
+                    site: "http://badgeyay.com"
                 },
-                bug: {
-                    site: "#"
+                meilix: {
+                    site: "meilix.org"
                 },
-                phi: {
-                    site: "#"
+                phimpme: {
+                    site: "https://phimp.me/"
                 },
-                magicmirror: {
-                    site: "#"
+                susimagicmirror: {
+                    // site: "https://github.com/fossasia/MMM-SUSI-AI"
                 },
-                docs: {
-                    site: "#"
+                yaydoc: {
+                    site: "http://dev.yaydoc.org"
                 },
                 github_repo: {
-                    fossasia: "#"
+                    // fossasia: "https://github.com/fossasia"
                 }
             },
             Ki = function() {
@@ -47355,7 +47355,7 @@ webpackJsonp([0], {
                     var l = new To({
                         search: n
                     });
-                    return this.jsonp.get("#", l).map(function(e) {
+                    return this.jsonp.get("https://yacy.searchlab.eu/Crawler_p.json", l).map(function(e) {
                         e.json()
                     }).retry(2).catch(this.handleError)
                 }, e
@@ -54474,7 +54474,7 @@ webpackJsonp([0], {
                 ["src", "/susper.com/assets/images/bug.png"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n              "])), (e()(), i["\u0275eld"](0, null, null, 3, "p", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Bug"])), (e()(), i["\u0275eld"](0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Report"])), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275ted"](null, ["\n\n            "])), (e()(), i["\u0275eld"](0, null, null, 11, "a", [
                 ["class", "menu-item"],
-                ["routerLink", "/contact"],
+                ["routerLink", "/"],
                 ["routerLinkActive", "active"]
             ], [
                 [1, "target", 0],
@@ -54497,7 +54497,7 @@ webpackJsonp([0], {
             }), (e()(), i["\u0275ted"](null, ["\n              "])), (e()(), i["\u0275eld"](0, null, null, 1, "div", [
                 ["class", "img"]
             ], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 0, "img", [
-                ["src", "/susper.com/assets/images/contact.png"]
+                ["src", "/susper.com/assets/images/.png"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n              "])), (e()(), i["\u0275eld"](0, null, null, 1, "p", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Contact"])), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275ted"](null, ["\n\n            "])), (e()(), i["\u0275eld"](0, null, null, 13, "a", [
                 ["class", "menu-item"],
                 ["routerLink", "/advancedsearch"],
@@ -54634,10 +54634,10 @@ webpackJsonp([0], {
             ], [
                 [8, "href", 4]
             ], null, null, null, null)), (e()(), i["\u0275ted"](null, ["More on labs.fossasia.org"])), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275ted"](null, ["\n\n        "])), (e()(), i["\u0275ted"](null, ["\n\n      "])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
-                e(n, 53, 0, "/contact"), e(n, 54, 0, "active"), e(n, 66, 0, "/advancedsearch"), e(n, 67, 0, "active")
+                e(n, 53, 0, "/"), e(n, 54, 0, "active"), e(n, 66, 0, "/advancedsearch"), e(n, 67, 0, "active")
             }, function(e, n) {
                 var t = n.component;
-                e(n, 18, 0, i["\u0275inlineInterpolate"](1, "//", t.fossasiaBlogUrl, "")), e(n, 27, 0, i["\u0275inlineInterpolate"](2, "", t.fossasia_repo, "/", t.susperUrl, "")), e(n, 41, 0, i["\u0275inlineInterpolate"](1, "//github.com/fossasia/", t.susperUrl, "/issues")), e(n, 52, 0, i["\u0275nov"](n, 53).target, i["\u0275nov"](n, 53).href), e(n, 65, 0, i["\u0275nov"](n, 66).target, i["\u0275nov"](n, 66).href), e(n, 87, 0, i["\u0275inlineInterpolate"](1, "//", t.fossasiaUrl, "")), e(n, 96, 0, i["\u0275inlineInterpolate"](1, "//", t.loklakUrl, "")), e(n, 105, 0, i["\u0275inlineInterpolate"](1, "//", t.susiUrl, "")), e(n, 119, 0, i["\u0275inlineInterpolate"](1, "//", t.eventyayUrl, "")), e(n, 128, 0, i["\u0275inlineInterpolate"](1, "//", t.pslabUrl, "")), e(n, 137, 0, i["\u0275inlineInterpolate"](1, "", t.badgeyayUrl, "")), e(n, 150, 0, i["\u0275inlineInterpolate"](1, "//", t.meilixUrl, "")), e(n, 159, 0, i["\u0275inlineInterpolate"](1, "", t.phimpmeUrl, "")), e(n, 168, 0, i["\u0275inlineInterpolate"](1, "", t.yaydocUrl, "")), e(n, 180, 0, i["\u0275inlineInterpolate"](1, "", t.susimagicmirrorUrl, "")), e(n, 194, 0, i["\u0275inlineInterpolate"](1, "//", t.fossasiaLabsUrl, ""))
+                e(n, 18, 0, i["\u0275inlineInterpolate"](1, "//", t.fossasiaBlogUrl, "")), e(n, 27, 0, i["\u0275inlineInterpolate"](2, "", t.fossasia_repo, "/", t.susperUrl, "")), e(n, 41, 0, i["\u0275inlineInterpolate"](1, "", t.susperUrl, "")), e(n, 52, 0, i["\u0275nov"](n, 53).target, i["\u0275nov"](n, 53).href), e(n, 65, 0, i["\u0275nov"](n, 66).target, i["\u0275nov"](n, 66).href), e(n, 87, 0, i["\u0275inlineInterpolate"](1, "//", t.fossasiaUrl, "")), e(n, 96, 0, i["\u0275inlineInterpolate"](1, "//", t.loklakUrl, "")), e(n, 105, 0, i["\u0275inlineInterpolate"](1, "//", t.susiUrl, "")), e(n, 119, 0, i["\u0275inlineInterpolate"](1, "//", t.eventyayUrl, "")), e(n, 128, 0, i["\u0275inlineInterpolate"](1, "//", t.pslabUrl, "")), e(n, 137, 0, i["\u0275inlineInterpolate"](1, "", t.badgeyayUrl, "")), e(n, 150, 0, i["\u0275inlineInterpolate"](1, "//", t.meilixUrl, "")), e(n, 159, 0, i["\u0275inlineInterpolate"](1, "", t.phimpmeUrl, "")), e(n, 168, 0, i["\u0275inlineInterpolate"](1, "", t.yaydocUrl, "")), e(n, 180, 0, i["\u0275inlineInterpolate"](1, "", t.susimagicmirrorUrl, "")), e(n, 194, 0, i["\u0275inlineInterpolate"](1, "//", t.fossasiaLabsUrl, ""))
             })
         }
         var dm = function() {
@@ -55079,7 +55079,7 @@ webpackJsonp([0], {
             }), i["\u0275qud"](603979776, 2, {
                 linksWithHrefs: 1
             }), (e()(), i["\u0275ted"](null, ["About"])), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 1, "a", [
-                ["href", "//blog.fossasia.org/tag/susper/"],
+                ["href", "#"],
                 ["id", "blog"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Blogs"])), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 1, "a", [
                 ["id", "code"]
@@ -55153,7 +55153,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Search Help"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 5, "a", [
-                ["routerLink", "/privacy"],
+                ["routerLink", "/"],
                 ["routerLinkActive", "active"]
             ], [
                 [1, "target", 0],
@@ -55174,7 +55174,7 @@ webpackJsonp([0], {
             }), i["\u0275qud"](603979776, 6, {
                 linksWithHrefs: 1
             }), (e()(), i["\u0275ted"](null, ["Privacy"])), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 5, "a", [
-                ["routerLink", "/terms"],
+                ["routerLink", "/"],
                 ["routerLinkActive", "active"]
             ], [
                 [1, "target", 0],
@@ -55195,7 +55195,7 @@ webpackJsonp([0], {
             }), i["\u0275qud"](603979776, 8, {
                 linksWithHrefs: 1
             }), (e()(), i["\u0275ted"](null, ["Terms"])), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 5, "a", [
-                ["routerLink", "/contact"],
+                ["routerLink", "/"],
                 ["routerLinkActive", "active"]
             ], [
                 [1, "target", 0],
@@ -55216,7 +55216,7 @@ webpackJsonp([0], {
             }), i["\u0275qud"](603979776, 10, {
                 linksWithHrefs: 1
             }), (e()(), i["\u0275ted"](null, ["Contact"])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](null, ["\n\n  "])), (e()(), i["\u0275ted"](null, ["\n"])), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
-                e(n, 7, 0, "/about"), e(n, 8, 0, "active"), e(n, 31, 0, "/preferences"), e(n, 36, 0, "/advancedsearch"), e(n, 41, 0, "/crawlstartexpert"), e(n, 42, 0, "active"), e(n, 49, 0, "/help"), e(n, 55, 0, "/privacy"), e(n, 56, 0, "active"), e(n, 62, 0, "/terms"), e(n, 63, 0, "active"), e(n, 69, 0, "/contact"), e(n, 70, 0, "active")
+                e(n, 7, 0, "/"), e(n, 8, 0, "active"), e(n, 31, 0, "/preferences"), e(n, 36, 0, "/advancedsearch"), e(n, 41, 0, "/crawlstartexpert"), e(n, 42, 0, "active"), e(n, 49, 0, "/help"), e(n, 55, 0, "/"), e(n, 56, 0, "active"), e(n, 62, 0, "/"), e(n, 63, 0, "active"), e(n, 69, 0, "/"), e(n, 70, 0, "active")
             }, function(e, n) {
                 var t = n.component;
                 e(n, 6, 0, i["\u0275nov"](n, 7).target, i["\u0275nov"](n, 7).href), e(n, 16, 0, i["\u0275inlineInterpolate"](2, "//", t.fossasia_repo, "/", t.susperUrl, "")), e(n, 30, 0, i["\u0275nov"](n, 31).target, i["\u0275nov"](n, 31).href), e(n, 35, 0, i["\u0275nov"](n, 36).target, i["\u0275nov"](n, 36).href), e(n, 40, 0, i["\u0275nov"](n, 41).target, i["\u0275nov"](n, 41).href), e(n, 48, 0, i["\u0275nov"](n, 49).target, i["\u0275nov"](n, 49).href), e(n, 54, 0, i["\u0275nov"](n, 55).target, i["\u0275nov"](n, 55).href), e(n, 61, 0, i["\u0275nov"](n, 62).target, i["\u0275nov"](n, 62).href), e(n, 68, 0, i["\u0275nov"](n, 69).target, i["\u0275nov"](n, 69).href)
@@ -55408,7 +55408,7 @@ webpackJsonp([0], {
             ], [
                 [8, "href", 4]
             ], null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 0, "img", [
-                ["src", "assets/images/RssOrange.jpg"]
+                ["src", "/susper.com/assets/images/RssOrange.jpg"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 2, "span", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 1, "b", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["RSS"])), (e()(), i["\u0275ted"](null, ["\n              "])), (e()(), i["\u0275ted"](null, ["\n              "])), (e()(), i["\u0275eld"](0, null, null, 7, "a", [
                 ["class", "json"],
                 ["target", "_blank"]
@@ -56029,7 +56029,7 @@ webpackJsonp([0], {
             ], [
                 [8, "href", 4]
             ], null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n              "])), (e()(), i["\u0275eld"](0, null, null, 0, "img", [
-                ["src", "assets/images/RssOrange.jpg"]
+                ["src", "/susper.com/assets/images/RssOrange.jpg"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n              "])), (e()(), i["\u0275eld"](0, null, null, 1, "b", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["RSS"])), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275ted"](null, ["\n            \n            "])), (e()(), i["\u0275eld"](0, null, null, 6, "a", [
                 ["class", "json"],
                 ["target", "_blank"]
@@ -56104,7 +56104,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 1, "app-dropdown", [], null, null, null, cm, sm)), i["\u0275did"](114688, null, 0, am, [], null, null), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275ted"](null, ["\n"])), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
                 e(n, 22, 0), e(n, 56, 0), e(n, 64, 0)
             }, function(e, n) {
-                e(n, 12, 0, i["\u0275inlineInterpolate"](1, "https://", n.component.fossasia_repo, "/susper.com"))
+                e(n, 12, 0, i["\u0275inlineInterpolate"](1, "https://", n.component.fossasia_repo, "#"))
             })
         }
         var mv = i["\u0275ccf"]("app-index", Ki, function(e) {
@@ -56164,7 +56164,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 29, "ul", [
                 ["class", "nav navbar-nav navbar-collapse navbar-right"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275eld"](0, null, null, 5, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/privacy"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56176,7 +56176,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Privacy"])), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275eld"](0, null, null, 5, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/terms"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56188,7 +56188,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Terms"])), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275eld"](0, null, null, 5, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/about"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56200,7 +56200,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["About"])), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275eld"](0, null, null, 5, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56215,7 +56215,7 @@ webpackJsonp([0], {
                 ["class", "image-banner col-xs-12 col-sm-12 col-md-12 col-lg-12"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n\n    "])), (e()(), i["\u0275eld"](0, null, null, 0, "img", [
                 ["class", "img-responsive banner"],
-                ["src", "../../assets/images/mountain.jpg"]
+                ["src", "/susper.com/assets/images/susper.png"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275eld"](0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275ted"](null, ["\n\n\n  "])), (e()(), i["\u0275eld"](0, null, null, 80, "div", [
                 ["class", "container"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275eld"](0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275eld"](0, null, null, 1, "h2", [
@@ -56246,7 +56246,7 @@ webpackJsonp([0], {
                 ["target", "_blank"]
             ], [
                 [8, "href", 4]
-            ], null, null, null, null)), (e()(), i["\u0275ted"](null, ["fossasia/susper.com"])), (e()(), i["\u0275ted"](null, [". We'll be happy to help you out!'"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275ted"](null, ["\n\n        "])), (e()(), i["\u0275eld"](0, null, null, 10, "div", [
+            ], null, null, null, null)), (e()(), i["\u0275ted"](null, ["fossasia/"])), (e()(), i["\u0275ted"](null, [". We'll be happy to help you out!'"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275ted"](null, ["\n\n        "])), (e()(), i["\u0275eld"](0, null, null, 10, "div", [
                 ["class", "col-lg-4 col-sm-12 sub-details"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275eld"](0, null, null, 1, "h5", [
                 ["class", "bold"]
@@ -56267,7 +56267,7 @@ webpackJsonp([0], {
                 ["class", "col-lg-12 col-sm-12 contact-sub-details"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275eld"](0, null, null, 5, "p", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["If you would like to get in touch with us, you find our details on the\n            "])), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
                 ["class", "page-link"],
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56279,7 +56279,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["contact page."])), (e()(), i["\u0275ted"](null, ["\n          "])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275eld"](0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275eld"](0, null, null, 4, "footer", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275eld"](0, null, null, 1, "app-footer-navbar", [], null, null, null, Dm, Pm)), i["\u0275did"](114688, null, 0, Lm, [], null, null), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275ted"](null, ["\n"])), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
-                e(n, 18, 0, "/"), e(n, 31, 0, "/privacy"), e(n, 38, 0, "/terms"), e(n, 45, 0, "/about"), e(n, 52, 0, "/contact"), e(n, 139, 0, "/contact"), e(n, 152, 0)
+                e(n, 18, 0, "/"), e(n, 31, 0, "/"), e(n, 38, 0, "/"), e(n, 45, 0, "/"), e(n, 52, 0, "/"), e(n, 139, 0, "/"), e(n, 152, 0)
             }, function(e, n) {
                 var t = n.component;
                 e(n, 17, 0, i["\u0275nov"](n, 18).target, i["\u0275nov"](n, 18).href), e(n, 30, 0, i["\u0275nov"](n, 31).target, i["\u0275nov"](n, 31).href), e(n, 37, 0, i["\u0275nov"](n, 38).target, i["\u0275nov"](n, 38).href), e(n, 44, 0, i["\u0275nov"](n, 45).target, i["\u0275nov"](n, 45).href), e(n, 51, 0, i["\u0275nov"](n, 52).target, i["\u0275nov"](n, 52).href), e(n, 93, 0, i["\u0275inlineInterpolate"](1, "https://", t.yacySite, "/en/index.html")), e(n, 105, 0, i["\u0275inlineInterpolate"](1, "https://gitter.im/fossasia/", t.susperUrl, "")), e(n, 117, 0, i["\u0275inlineInterpolate"](2, "https://", t.fossasia_repo, "/", t.susperUrl, "")), e(n, 138, 0, i["\u0275nov"](n, 139).target, i["\u0275nov"](n, 139).href)
@@ -56340,7 +56340,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 21, "ul", [
                 ["class", "nav navbar-nav navbar-collapse navbar-right"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/privacy"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56352,7 +56352,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Privacy"])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/terms"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56364,7 +56364,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Terms"])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/about"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56376,7 +56376,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["About"])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56399,7 +56399,7 @@ webpackJsonp([0], {
                 ["style", "margin-bottom:70px;"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["For information about how to contact susper, please visit our "])), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
                 ["class", "page-link"],
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56471,7 +56471,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 21, "ul", [
                 ["class", "nav navbar-nav navbar-collapse navbar-right"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            \t"])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/privacy"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56483,7 +56483,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Privacy"])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/terms"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56495,7 +56495,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Terms"])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/about"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56507,7 +56507,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["About"])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56530,7 +56530,7 @@ webpackJsonp([0], {
                 ["style", "margin-bottom:50px;"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, [" For information about how to contact susper, please visit our "])), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
                 ["class", "page-link"],
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56542,7 +56542,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["contact page"])), (e()(), i["\u0275ted"](null, ["."])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 0, "br", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](null, ["\n"])), (e()(), i["\u0275ted"](null, ["\n\n"])), (e()(), i["\u0275eld"](0, null, null, 4, "footer", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275eld"](0, null, null, 1, "app-footer-navbar", [], null, null, null, Dm, Pm)), i["\u0275did"](114688, null, 0, Lm, [], null, null), (e()(), i["\u0275ted"](null, ["\n"])), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
-                e(n, 16, 0, "/"), e(n, 28, 0, "/privacy"), e(n, 33, 0, "/terms"), e(n, 38, 0, "/about"), e(n, 43, 0, "/contact"), e(n, 234, 0, "/contact"), e(n, 247, 0)
+                e(n, 16, 0, "/"), e(n, 28, 0, "/"), e(n, 33, 0, "/"), e(n, 38, 0, "/"), e(n, 43, 0, "/"), e(n, 234, 0, "/"), e(n, 247, 0)
             }, function(e, n) {
                 e(n, 15, 0, i["\u0275nov"](n, 16).target, i["\u0275nov"](n, 16).href), e(n, 27, 0, i["\u0275nov"](n, 28).target, i["\u0275nov"](n, 28).href), e(n, 32, 0, i["\u0275nov"](n, 33).target, i["\u0275nov"](n, 33).href), e(n, 37, 0, i["\u0275nov"](n, 38).target, i["\u0275nov"](n, 38).href), e(n, 42, 0, i["\u0275nov"](n, 43).target, i["\u0275nov"](n, 43).href), e(n, 233, 0, i["\u0275nov"](n, 234).target, i["\u0275nov"](n, 234).href)
             })
@@ -56629,7 +56629,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 21, "ul", [
                 ["class", "nav navbar-nav navbar-collapse navbar-right"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/privacy"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56641,7 +56641,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Privacy"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/terms"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56653,7 +56653,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Terms"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/about"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -56665,7 +56665,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["About"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -58408,7 +58408,7 @@ webpackJsonp([0], {
                 ["type", "submit"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Submit"])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](null, ["\n\n  "])), (e()(), i["\u0275ted"](null, ["\n\n  "])), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275ted"](0, ["\n\n"])), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
                 var t = n.component;
-                e(n, 23, 0, "/"), e(n, 35, 0, "/privacy"), e(n, 40, 0, "/terms"), e(n, 45, 0, "/about"), e(n, 50, 0, "/contact"), e(n, 120, 0, e(n, 121, 0, "/contact")), e(n, 132, 0), e(n, 194, 0, "213"), e(n, 195, 0, "213"), e(n, 199, 0, "376"), e(n, 200, 0, "376"), e(n, 204, 0, "244"), e(n, 205, 0, "244"), e(n, 209, 0, "1264"), e(n, 210, 0, "1264"), e(n, 214, 0, "1268"), e(n, 215, 0, "1268"), e(n, 219, 0, "54"), e(n, 220, 0, "54"), e(n, 224, 0, "374"), e(n, 225, 0, "374"), e(n, 229, 0, "297"), e(n, 230, 0, "297"), e(n, 234, 0, "61"), e(n, 235, 0, "61"), e(n, 239, 0, "43"), e(n, 240, 0, "43"), e(n, 244, 0, "994"), e(n, 245, 0, "994"), e(n, 249, 0, "1242"), e(n, 250, 0, "1242"), e(n, 254, 0, "973"), e(n, 255, 0, "973"), e(n, 259, 0, "880"), e(n, 260, 0, "880"), e(n, 264, 0, "1246"), e(n, 265, 0, "1246"), e(n, 269, 0, "375"), e(n, 270, 0, "375"), e(n, 274, 0, "32"), e(n, 275, 0, "32"), e(n, 279, 0, "501"), e(n, 280, 0, "501"), e(n, 284, 0, "229"), e(n, 285, 0, "229"), e(n, 289, 0, "1441"), e(n, 290, 0, "1441"), e(n, 294, 0, "975"), e(n, 295, 0, "975"), e(n, 299, 0, "591"), e(n, 300, 0, "591"), e(n, 304, 0, "387"), e(n, 305, 0, "387"), e(n, 309, 0, "267"), e(n, 310, 0, "267"), e(n, 314, 0, "55"), e(n, 315, 0, "55"), e(n, 319, 0, "673"), e(n, 320, 0, "673"), e(n, 324, 0, "359"), e(n, 325, 0, "359"), e(n, 329, 0, "226"), e(n, 330, 0, "226"), e(n, 334, 0, "257"), e(n, 335, 0, "257"), e(n, 339, 0, "855"), e(n, 340, 0, "855"), e(n, 344, 0, "237"), e(n, 345, 0, "237"), e(n, 349, 0, "1"), e(n, 350, 0, "1"), e(n, 354, 0, "238"), e(n, 355, 0, "238"), e(n, 359, 0, "1345"), e(n, 360, 0, "1345"), e(n, 364, 0, "236"), e(n, 365, 0, "236"), e(n, 369, 0, "56"), e(n, 370, 0, "56"), e(n, 374, 0, "86"), e(n, 375, 0, "86"), e(n, 379, 0, "57"), e(n, 380, 0, "57"), e(n, 384, 0, "269"), e(n, 385, 0, "269"), e(n, 389, 0, "242"), e(n, 390, 0, "242"), e(n, 394, 0, "682"), e(n, 395, 0, "682"), e(n, 399, 0, "506"), e(n, 400, 0, "506"), e(n, 404, 0, "385"), e(n, 405, 0, "385"), e(n, 409, 0, "53"), e(n, 410, 0, "53"), e(n, 414, 0, "90392"), e(n, 415, 0, "90392"), e(n, 419, 0, "357"), e(n, 420, 0, "357"), e(n, 424, 0, "42"), e(n, 425, 0, "42"), e(n, 429, 0, "45"), e(n, 430, 0, "45"), e(n, 434, 0, "253"), e(n, 435, 0, "253"), e(n, 439, 0, "1809"), e(n, 440, 0, "1809"), e(n, 444, 0, "1809"), e(n, 445, 0, "1809"), e(n, 449, 0, "593"), e(n, 450, 0, "593"), e(n, 454, 0, "20"), e(n, 455, 0, "20"), e(n, 459, 0, "503"), e(n, 460, 0, "503"), e(n, 464, 0, "240"), e(n, 465, 0, "240"), e(n, 469, 0, "291"), e(n, 470, 0, "291"), e(n, 474, 0, "372"), e(n, 475, 0, "372"), e(n, 479, 0, "251"), e(n, 480, 0, "251"), e(n, 484, 0, "500"), e(n, 485, 0, "500"), e(n, 489, 0, "298"), e(n, 490, 0, "298"), e(n, 494, 0, "679"), e(n, 495, 0, "679"), e(n, 499, 0, "358"), e(n, 500, 0, "358"), e(n, 504, 0, "33"), e(n, 505, 0, "33"), e(n, 509, 0, "594"), e(n, 510, 0, "594"), e(n, 514, 0, "689"), e(n, 515, 0, "689"), e(n, 519, 0, "241"), e(n, 520, 0, "241"), e(n, 524, 0, "220"), e(n, 525, 0, "220"), e(n, 529, 0, "7880"), e(n, 530, 0, "7880"), e(n, 534, 0, "49"), e(n, 535, 0, "49"), e(n, 539, 0, "233"), e(n, 540, 0, "233"), e(n, 544, 0, "350"), e(n, 545, 0, "350"), e(n, 549, 0, "30"), e(n, 550, 0, "30"), e(n, 554, 0, "299"), e(n, 555, 0, "299"), e(n, 559, 0, "1473"), e(n, 560, 0, "1473"), e(n, 564, 0, "590"), e(n, 565, 0, "590"), e(n, 569, 0, "671"), e(n, 570, 0, "671"), e(n, 574, 0, "502"), e(n, 575, 0, "502"), e(n, 579, 0, "224"), e(n, 580, 0, "224"), e(n, 584, 0, "245"), e(n, 585, 0, "245"), e(n, 589, 0, "592"), e(n, 590, 0, "592"), e(n, 594, 0, "509"), e(n, 595, 0, "509"), e(n, 599, 0, "504"), e(n, 600, 0, "504"), e(n, 604, 0, "852"), e(n, 605, 0, "852"), e(n, 609, 0, "36"), e(n, 610, 0, "36"), e(n, 614, 0, "354"), e(n, 615, 0, "354"), e(n, 619, 0, "91"), e(n, 620, 0, "91"), e(n, 624, 0, "62"), e(n, 625, 0, "62"), e(n, 629, 0, "98"), e(n, 630, 0, "98"), e(n, 634, 0, "964"), e(n, 635, 0, "964"), e(n, 639, 0, "353"), e(n, 640, 0, "353"), e(n, 644, 0, "972"), e(n, 645, 0, "972"), e(n, 649, 0, "39"), e(n, 650, 0, "39"), e(n, 654, 0, "1876"), e(n, 655, 0, "1876"), e(n, 659, 0, "81"), e(n, 660, 0, "81"), e(n, 664, 0, "962"), e(n, 665, 0, "962"), e(n, 669, 0, "7"), e(n, 670, 0, "7"), e(n, 674, 0, "254"), e(n, 675, 0, "254"), e(n, 679, 0, "686"), e(n, 680, 0, "686"), e(n, 684, 0, "850"), e(n, 685, 0, "850"), e(n, 689, 0, "82"), e(n, 690, 0, "82"), e(n, 694, 0, "965"), e(n, 695, 0, "965"), e(n, 699, 0, "996"), e(n, 700, 0, "996"), e(n, 704, 0, "856"), e(n, 705, 0, "856"), e(n, 709, 0, "371"), e(n, 710, 0, "371"), e(n, 714, 0, "961"), e(n, 715, 0, "961"), e(n, 719, 0, "266"), e(n, 720, 0, "266"), e(n, 724, 0, "231"), e(n, 725, 0, "231"), e(n, 729, 0, "218"), e(n, 730, 0, "218"), e(n, 734, 0, "417"), e(n, 735, 0, "417"), e(n, 739, 0, "370"), e(n, 740, 0, "370"), e(n, 744, 0, "352"), e(n, 745, 0, "352"), e(n, 749, 0, "853"), e(n, 750, 0, "853"), e(n, 754, 0, "389"), e(n, 755, 0, "389"), e(n, 759, 0, "261"), e(n, 760, 0, "261"), e(n, 764, 0, "265"), e(n, 765, 0, "265"), e(n, 769, 0, "60"), e(n, 770, 0, "60"), e(n, 774, 0, "960"), e(n, 775, 0, "960"), e(n, 779, 0, "223"), e(n, 780, 0, "223"), e(n, 784, 0, "356"), e(n, 785, 0, "356"), e(n, 789, 0, "692"), e(n, 790, 0, "692"), e(n, 794, 0, "596"), e(n, 795, 0, "596"), e(n, 799, 0, "222"), e(n, 800, 0, "222"), e(n, 804, 0, "269"), e(n, 805, 0, "269"), e(n, 809, 0, "52"), e(n, 810, 0, "52"), e(n, 814, 0, "691"), e(n, 815, 0, "691"), e(n, 819, 0, "373"), e(n, 820, 0, "373"), e(n, 824, 0, "377"), e(n, 825, 0, "377"), e(n, 829, 0, "976"), e(n, 830, 0, "976"), e(n, 834, 0, "1664"), e(n, 835, 0, "1664"), e(n, 839, 0, "212"), e(n, 840, 0, "212"), e(n, 844, 0, "258"), e(n, 845, 0, "258"), e(n, 849, 0, "95"), e(n, 850, 0, "95"), e(n, 854, 0, "264"), e(n, 855, 0, "264"), e(n, 859, 0, "674"), e(n, 860, 0, "674"), e(n, 864, 0, "977"), e(n, 865, 0, "977"), e(n, 869, 0, "31"), e(n, 870, 0, "31"), e(n, 874, 0, "687"), e(n, 875, 0, "687"), e(n, 879, 0, "64"), e(n, 880, 0, "64"), e(n, 884, 0, "505"), e(n, 885, 0, "505"), e(n, 889, 0, "227"), e(n, 890, 0, "227"), e(n, 894, 0, "234"), e(n, 895, 0, "234"), e(n, 899, 0, "683"), e(n, 900, 0, "683"), e(n, 904, 0, "672"), e(n, 905, 0, "672"), e(n, 909, 0, "670"), e(n, 910, 0, "670"), e(n, 914, 0, "47"), e(n, 915, 0, "47"), e(n, 919, 0, "968"), e(n, 920, 0, "968"), e(n, 924, 0, "680"), e(n, 925, 0, "680"), e(n, 929, 0, "507"), e(n, 930, 0, "507"), e(n, 934, 0, "675"), e(n, 935, 0, "675"), e(n, 939, 0, "595"), e(n, 940, 0, "595"), e(n, 944, 0, "51"), e(n, 945, 0, "51"), e(n, 949, 0, "63"), e(n, 950, 0, "63"), e(n, 954, 0, "48"), e(n, 955, 0, "48"), e(n, 959, 0, "351"), e(n, 960, 0, "351"), e(n, 964, 0, "1787"), e(n, 965, 0, "1787"), e(n, 969, 0, "974"), e(n, 970, 0, "974"), e(n, 974, 0, "262"), e(n, 975, 0, "262"), e(n, 979, 0, "40"), e(n, 980, 0, "40"), e(n, 984, 0, "7"), e(n, 985, 0, "7"), e(n, 989, 0, "250"), e(n, 990, 0, "250"), e(n, 994, 0, "378"), e(n, 995, 0, "378"), e(n, 999, 0, "239"), e(n, 1e3, 0, "239"), e(n, 1004, 0, "966"), e(n, 1005, 0, "966"), e(n, 1009, 0, "221"), e(n, 1010, 0, "221"), e(n, 1014, 0, "381"), e(n, 1015, 0, "381"), e(n, 1019, 0, "248"), e(n, 1020, 0, "248"), e(n, 1024, 0, "232"), e(n, 1025, 0, "232"), e(n, 1029, 0, "65"), e(n, 1030, 0, "65"), e(n, 1034, 0, "421"), e(n, 1035, 0, "421"), e(n, 1039, 0, "386"), e(n, 1040, 0, "386"), e(n, 1044, 0, "677"), e(n, 1045, 0, "677"), e(n, 1049, 0, "252"), e(n, 1050, 0, "252"), e(n, 1054, 0, "27"), e(n, 1055, 0, "27"), e(n, 1059, 0, "34"), e(n, 1060, 0, "34"), e(n, 1064, 0, "94"), e(n, 1065, 0, "94"), e(n, 1069, 0, "290"), e(n, 1070, 0, "290"), e(n, 1074, 0, "1869"), e(n, 1075, 0, "1869"), e(n, 1079, 0, "1758"), e(n, 1080, 0, "1758"), e(n, 1084, 0, "249"), e(n, 1085, 0, "249"), e(n, 1089, 0, "597"), e(n, 1090, 0, "597"), e(n, 1094, 0, "268"), e(n, 1095, 0, "268"), e(n, 1099, 0, "46"), e(n, 1100, 0, "46"), e(n, 1104, 0, "41"), e(n, 1105, 0, "41"), e(n, 1109, 0, "963"), e(n, 1110, 0, "963"), e(n, 1114, 0, "886"), e(n, 1115, 0, "886"), e(n, 1119, 0, "7"), e(n, 1120, 0, "7"), e(n, 1124, 0, "66"), e(n, 1125, 0, "66"), e(n, 1129, 0, "228"), e(n, 1130, 0, "228"), e(n, 1134, 0, "676"), e(n, 1135, 0, "676"), e(n, 1139, 0, "1868"), e(n, 1140, 0, "1868"), e(n, 1144, 0, "216"), e(n, 1145, 0, "216"), e(n, 1149, 0, "90"), e(n, 1150, 0, "90"), e(n, 1154, 0, "7"), e(n, 1155, 0, "7"), e(n, 1159, 0, "993"), e(n, 1160, 0, "993"), e(n, 1164, 0, "1649"), e(n, 1165, 0, "1649"), e(n, 1169, 0, "688"), e(n, 1170, 0, "688"), e(n, 1174, 0, "256"), e(n, 1175, 0, "256"), e(n, 1179, 0, "44"), e(n, 1180, 0, "44"), e(n, 1184, 0, "380"), e(n, 1185, 0, "380"), e(n, 1189, 0, "971"), e(n, 1190, 0, "971"), e(n, 1194, 0, "598"), e(n, 1195, 0, "598"), e(n, 1199, 0, "1"), e(n, 1200, 0, "1"), e(n, 1204, 0, "7"), e(n, 1205, 0, "7"), e(n, 1209, 0, "678"), e(n, 1210, 0, "678"), e(n, 1214, 0, "379"), e(n, 1215, 0, "379"), e(n, 1219, 0, "58"), e(n, 1220, 0, "58"), e(n, 1224, 0, "84"), e(n, 1225, 0, "84"), e(n, 1229, 0, "84"), e(n, 1230, 0, "84"), e(n, 1234, 0, "84"), e(n, 1235, 0, "84"), e(n, 1239, 0, "681"), e(n, 1240, 0, "681"), e(n, 1244, 0, "969"), e(n, 1245, 0, "969"), e(n, 1249, 0, "967"), e(n, 1250, 0, "967"), e(n, 1254, 0, "260"), e(n, 1255, 0, "260"), e(n, 1259, 0, "263"), e(n, 1260, 0, "263"), e(n, 1267, 0, ""), e(n, 1270, 0, "telephone", t.tpnoInput), e(n, 1287, 0, ""), e(n, 1290, 0, "message", t.contactMessage)
+                e(n, 23, 0, "/"), e(n, 35, 0, "/"), e(n, 40, 0, "/"), e(n, 45, 0, "/"), e(n, 50, 0, "/"), e(n, 120, 0, e(n, 121, 0, "/")), e(n, 132, 0), e(n, 194, 0, "213"), e(n, 195, 0, "213"), e(n, 199, 0, "376"), e(n, 200, 0, "376"), e(n, 204, 0, "244"), e(n, 205, 0, "244"), e(n, 209, 0, "1264"), e(n, 210, 0, "1264"), e(n, 214, 0, "1268"), e(n, 215, 0, "1268"), e(n, 219, 0, "54"), e(n, 220, 0, "54"), e(n, 224, 0, "374"), e(n, 225, 0, "374"), e(n, 229, 0, "297"), e(n, 230, 0, "297"), e(n, 234, 0, "61"), e(n, 235, 0, "61"), e(n, 239, 0, "43"), e(n, 240, 0, "43"), e(n, 244, 0, "994"), e(n, 245, 0, "994"), e(n, 249, 0, "1242"), e(n, 250, 0, "1242"), e(n, 254, 0, "973"), e(n, 255, 0, "973"), e(n, 259, 0, "880"), e(n, 260, 0, "880"), e(n, 264, 0, "1246"), e(n, 265, 0, "1246"), e(n, 269, 0, "375"), e(n, 270, 0, "375"), e(n, 274, 0, "32"), e(n, 275, 0, "32"), e(n, 279, 0, "501"), e(n, 280, 0, "501"), e(n, 284, 0, "229"), e(n, 285, 0, "229"), e(n, 289, 0, "1441"), e(n, 290, 0, "1441"), e(n, 294, 0, "975"), e(n, 295, 0, "975"), e(n, 299, 0, "591"), e(n, 300, 0, "591"), e(n, 304, 0, "387"), e(n, 305, 0, "387"), e(n, 309, 0, "267"), e(n, 310, 0, "267"), e(n, 314, 0, "55"), e(n, 315, 0, "55"), e(n, 319, 0, "673"), e(n, 320, 0, "673"), e(n, 324, 0, "359"), e(n, 325, 0, "359"), e(n, 329, 0, "226"), e(n, 330, 0, "226"), e(n, 334, 0, "257"), e(n, 335, 0, "257"), e(n, 339, 0, "855"), e(n, 340, 0, "855"), e(n, 344, 0, "237"), e(n, 345, 0, "237"), e(n, 349, 0, "1"), e(n, 350, 0, "1"), e(n, 354, 0, "238"), e(n, 355, 0, "238"), e(n, 359, 0, "1345"), e(n, 360, 0, "1345"), e(n, 364, 0, "236"), e(n, 365, 0, "236"), e(n, 369, 0, "56"), e(n, 370, 0, "56"), e(n, 374, 0, "86"), e(n, 375, 0, "86"), e(n, 379, 0, "57"), e(n, 380, 0, "57"), e(n, 384, 0, "269"), e(n, 385, 0, "269"), e(n, 389, 0, "242"), e(n, 390, 0, "242"), e(n, 394, 0, "682"), e(n, 395, 0, "682"), e(n, 399, 0, "506"), e(n, 400, 0, "506"), e(n, 404, 0, "385"), e(n, 405, 0, "385"), e(n, 409, 0, "53"), e(n, 410, 0, "53"), e(n, 414, 0, "90392"), e(n, 415, 0, "90392"), e(n, 419, 0, "357"), e(n, 420, 0, "357"), e(n, 424, 0, "42"), e(n, 425, 0, "42"), e(n, 429, 0, "45"), e(n, 430, 0, "45"), e(n, 434, 0, "253"), e(n, 435, 0, "253"), e(n, 439, 0, "1809"), e(n, 440, 0, "1809"), e(n, 444, 0, "1809"), e(n, 445, 0, "1809"), e(n, 449, 0, "593"), e(n, 450, 0, "593"), e(n, 454, 0, "20"), e(n, 455, 0, "20"), e(n, 459, 0, "503"), e(n, 460, 0, "503"), e(n, 464, 0, "240"), e(n, 465, 0, "240"), e(n, 469, 0, "291"), e(n, 470, 0, "291"), e(n, 474, 0, "372"), e(n, 475, 0, "372"), e(n, 479, 0, "251"), e(n, 480, 0, "251"), e(n, 484, 0, "500"), e(n, 485, 0, "500"), e(n, 489, 0, "298"), e(n, 490, 0, "298"), e(n, 494, 0, "679"), e(n, 495, 0, "679"), e(n, 499, 0, "358"), e(n, 500, 0, "358"), e(n, 504, 0, "33"), e(n, 505, 0, "33"), e(n, 509, 0, "594"), e(n, 510, 0, "594"), e(n, 514, 0, "689"), e(n, 515, 0, "689"), e(n, 519, 0, "241"), e(n, 520, 0, "241"), e(n, 524, 0, "220"), e(n, 525, 0, "220"), e(n, 529, 0, "7880"), e(n, 530, 0, "7880"), e(n, 534, 0, "49"), e(n, 535, 0, "49"), e(n, 539, 0, "233"), e(n, 540, 0, "233"), e(n, 544, 0, "350"), e(n, 545, 0, "350"), e(n, 549, 0, "30"), e(n, 550, 0, "30"), e(n, 554, 0, "299"), e(n, 555, 0, "299"), e(n, 559, 0, "1473"), e(n, 560, 0, "1473"), e(n, 564, 0, "590"), e(n, 565, 0, "590"), e(n, 569, 0, "671"), e(n, 570, 0, "671"), e(n, 574, 0, "502"), e(n, 575, 0, "502"), e(n, 579, 0, "224"), e(n, 580, 0, "224"), e(n, 584, 0, "245"), e(n, 585, 0, "245"), e(n, 589, 0, "592"), e(n, 590, 0, "592"), e(n, 594, 0, "509"), e(n, 595, 0, "509"), e(n, 599, 0, "504"), e(n, 600, 0, "504"), e(n, 604, 0, "852"), e(n, 605, 0, "852"), e(n, 609, 0, "36"), e(n, 610, 0, "36"), e(n, 614, 0, "354"), e(n, 615, 0, "354"), e(n, 619, 0, "91"), e(n, 620, 0, "91"), e(n, 624, 0, "62"), e(n, 625, 0, "62"), e(n, 629, 0, "98"), e(n, 630, 0, "98"), e(n, 634, 0, "964"), e(n, 635, 0, "964"), e(n, 639, 0, "353"), e(n, 640, 0, "353"), e(n, 644, 0, "972"), e(n, 645, 0, "972"), e(n, 649, 0, "39"), e(n, 650, 0, "39"), e(n, 654, 0, "1876"), e(n, 655, 0, "1876"), e(n, 659, 0, "81"), e(n, 660, 0, "81"), e(n, 664, 0, "962"), e(n, 665, 0, "962"), e(n, 669, 0, "7"), e(n, 670, 0, "7"), e(n, 674, 0, "254"), e(n, 675, 0, "254"), e(n, 679, 0, "686"), e(n, 680, 0, "686"), e(n, 684, 0, "850"), e(n, 685, 0, "850"), e(n, 689, 0, "82"), e(n, 690, 0, "82"), e(n, 694, 0, "965"), e(n, 695, 0, "965"), e(n, 699, 0, "996"), e(n, 700, 0, "996"), e(n, 704, 0, "856"), e(n, 705, 0, "856"), e(n, 709, 0, "371"), e(n, 710, 0, "371"), e(n, 714, 0, "961"), e(n, 715, 0, "961"), e(n, 719, 0, "266"), e(n, 720, 0, "266"), e(n, 724, 0, "231"), e(n, 725, 0, "231"), e(n, 729, 0, "218"), e(n, 730, 0, "218"), e(n, 734, 0, "417"), e(n, 735, 0, "417"), e(n, 739, 0, "370"), e(n, 740, 0, "370"), e(n, 744, 0, "352"), e(n, 745, 0, "352"), e(n, 749, 0, "853"), e(n, 750, 0, "853"), e(n, 754, 0, "389"), e(n, 755, 0, "389"), e(n, 759, 0, "261"), e(n, 760, 0, "261"), e(n, 764, 0, "265"), e(n, 765, 0, "265"), e(n, 769, 0, "60"), e(n, 770, 0, "60"), e(n, 774, 0, "960"), e(n, 775, 0, "960"), e(n, 779, 0, "223"), e(n, 780, 0, "223"), e(n, 784, 0, "356"), e(n, 785, 0, "356"), e(n, 789, 0, "692"), e(n, 790, 0, "692"), e(n, 794, 0, "596"), e(n, 795, 0, "596"), e(n, 799, 0, "222"), e(n, 800, 0, "222"), e(n, 804, 0, "269"), e(n, 805, 0, "269"), e(n, 809, 0, "52"), e(n, 810, 0, "52"), e(n, 814, 0, "691"), e(n, 815, 0, "691"), e(n, 819, 0, "373"), e(n, 820, 0, "373"), e(n, 824, 0, "377"), e(n, 825, 0, "377"), e(n, 829, 0, "976"), e(n, 830, 0, "976"), e(n, 834, 0, "1664"), e(n, 835, 0, "1664"), e(n, 839, 0, "212"), e(n, 840, 0, "212"), e(n, 844, 0, "258"), e(n, 845, 0, "258"), e(n, 849, 0, "95"), e(n, 850, 0, "95"), e(n, 854, 0, "264"), e(n, 855, 0, "264"), e(n, 859, 0, "674"), e(n, 860, 0, "674"), e(n, 864, 0, "977"), e(n, 865, 0, "977"), e(n, 869, 0, "31"), e(n, 870, 0, "31"), e(n, 874, 0, "687"), e(n, 875, 0, "687"), e(n, 879, 0, "64"), e(n, 880, 0, "64"), e(n, 884, 0, "505"), e(n, 885, 0, "505"), e(n, 889, 0, "227"), e(n, 890, 0, "227"), e(n, 894, 0, "234"), e(n, 895, 0, "234"), e(n, 899, 0, "683"), e(n, 900, 0, "683"), e(n, 904, 0, "672"), e(n, 905, 0, "672"), e(n, 909, 0, "670"), e(n, 910, 0, "670"), e(n, 914, 0, "47"), e(n, 915, 0, "47"), e(n, 919, 0, "968"), e(n, 920, 0, "968"), e(n, 924, 0, "680"), e(n, 925, 0, "680"), e(n, 929, 0, "507"), e(n, 930, 0, "507"), e(n, 934, 0, "675"), e(n, 935, 0, "675"), e(n, 939, 0, "595"), e(n, 940, 0, "595"), e(n, 944, 0, "51"), e(n, 945, 0, "51"), e(n, 949, 0, "63"), e(n, 950, 0, "63"), e(n, 954, 0, "48"), e(n, 955, 0, "48"), e(n, 959, 0, "351"), e(n, 960, 0, "351"), e(n, 964, 0, "1787"), e(n, 965, 0, "1787"), e(n, 969, 0, "974"), e(n, 970, 0, "974"), e(n, 974, 0, "262"), e(n, 975, 0, "262"), e(n, 979, 0, "40"), e(n, 980, 0, "40"), e(n, 984, 0, "7"), e(n, 985, 0, "7"), e(n, 989, 0, "250"), e(n, 990, 0, "250"), e(n, 994, 0, "378"), e(n, 995, 0, "378"), e(n, 999, 0, "239"), e(n, 1e3, 0, "239"), e(n, 1004, 0, "966"), e(n, 1005, 0, "966"), e(n, 1009, 0, "221"), e(n, 1010, 0, "221"), e(n, 1014, 0, "381"), e(n, 1015, 0, "381"), e(n, 1019, 0, "248"), e(n, 1020, 0, "248"), e(n, 1024, 0, "232"), e(n, 1025, 0, "232"), e(n, 1029, 0, "65"), e(n, 1030, 0, "65"), e(n, 1034, 0, "421"), e(n, 1035, 0, "421"), e(n, 1039, 0, "386"), e(n, 1040, 0, "386"), e(n, 1044, 0, "677"), e(n, 1045, 0, "677"), e(n, 1049, 0, "252"), e(n, 1050, 0, "252"), e(n, 1054, 0, "27"), e(n, 1055, 0, "27"), e(n, 1059, 0, "34"), e(n, 1060, 0, "34"), e(n, 1064, 0, "94"), e(n, 1065, 0, "94"), e(n, 1069, 0, "290"), e(n, 1070, 0, "290"), e(n, 1074, 0, "1869"), e(n, 1075, 0, "1869"), e(n, 1079, 0, "1758"), e(n, 1080, 0, "1758"), e(n, 1084, 0, "249"), e(n, 1085, 0, "249"), e(n, 1089, 0, "597"), e(n, 1090, 0, "597"), e(n, 1094, 0, "268"), e(n, 1095, 0, "268"), e(n, 1099, 0, "46"), e(n, 1100, 0, "46"), e(n, 1104, 0, "41"), e(n, 1105, 0, "41"), e(n, 1109, 0, "963"), e(n, 1110, 0, "963"), e(n, 1114, 0, "886"), e(n, 1115, 0, "886"), e(n, 1119, 0, "7"), e(n, 1120, 0, "7"), e(n, 1124, 0, "66"), e(n, 1125, 0, "66"), e(n, 1129, 0, "228"), e(n, 1130, 0, "228"), e(n, 1134, 0, "676"), e(n, 1135, 0, "676"), e(n, 1139, 0, "1868"), e(n, 1140, 0, "1868"), e(n, 1144, 0, "216"), e(n, 1145, 0, "216"), e(n, 1149, 0, "90"), e(n, 1150, 0, "90"), e(n, 1154, 0, "7"), e(n, 1155, 0, "7"), e(n, 1159, 0, "993"), e(n, 1160, 0, "993"), e(n, 1164, 0, "1649"), e(n, 1165, 0, "1649"), e(n, 1169, 0, "688"), e(n, 1170, 0, "688"), e(n, 1174, 0, "256"), e(n, 1175, 0, "256"), e(n, 1179, 0, "44"), e(n, 1180, 0, "44"), e(n, 1184, 0, "380"), e(n, 1185, 0, "380"), e(n, 1189, 0, "971"), e(n, 1190, 0, "971"), e(n, 1194, 0, "598"), e(n, 1195, 0, "598"), e(n, 1199, 0, "1"), e(n, 1200, 0, "1"), e(n, 1204, 0, "7"), e(n, 1205, 0, "7"), e(n, 1209, 0, "678"), e(n, 1210, 0, "678"), e(n, 1214, 0, "379"), e(n, 1215, 0, "379"), e(n, 1219, 0, "58"), e(n, 1220, 0, "58"), e(n, 1224, 0, "84"), e(n, 1225, 0, "84"), e(n, 1229, 0, "84"), e(n, 1230, 0, "84"), e(n, 1234, 0, "84"), e(n, 1235, 0, "84"), e(n, 1239, 0, "681"), e(n, 1240, 0, "681"), e(n, 1244, 0, "969"), e(n, 1245, 0, "969"), e(n, 1249, 0, "967"), e(n, 1250, 0, "967"), e(n, 1254, 0, "260"), e(n, 1255, 0, "260"), e(n, 1259, 0, "263"), e(n, 1260, 0, "263"), e(n, 1267, 0, ""), e(n, 1270, 0, "telephone", t.tpnoInput), e(n, 1287, 0, ""), e(n, 1290, 0, "message", t.contactMessage)
             }, function(e, n) {
                 e(n, 22, 0, i["\u0275nov"](n, 23).target, i["\u0275nov"](n, 23).href), e(n, 34, 0, i["\u0275nov"](n, 35).target, i["\u0275nov"](n, 35).href), e(n, 39, 0, i["\u0275nov"](n, 40).target, i["\u0275nov"](n, 40).href), e(n, 44, 0, i["\u0275nov"](n, 45).target, i["\u0275nov"](n, 45).href), e(n, 49, 0, i["\u0275nov"](n, 50).target, i["\u0275nov"](n, 50).href), e(n, 119, 0, i["\u0275nov"](n, 120).target, i["\u0275nov"](n, 120).href), e(n, 136, 0, i["\u0275nov"](n, 137).fadeClass, i["\u0275nov"](n, 137).dataKeyboardAttr, i["\u0275nov"](n, 137).dataBackdropAttr), e(n, 145, 0, i["\u0275nov"](n, 149).ngClassUntouched, i["\u0275nov"](n, 149).ngClassTouched, i["\u0275nov"](n, 149).ngClassPristine, i["\u0275nov"](n, 149).ngClassDirty, i["\u0275nov"](n, 149).ngClassValid, i["\u0275nov"](n, 149).ngClassInvalid, i["\u0275nov"](n, 149).ngClassPending), e(n, 1264, 0, i["\u0275nov"](n, 1267).required ? "" : null, i["\u0275nov"](n, 1272).ngClassUntouched, i["\u0275nov"](n, 1272).ngClassTouched, i["\u0275nov"](n, 1272).ngClassPristine, i["\u0275nov"](n, 1272).ngClassDirty, i["\u0275nov"](n, 1272).ngClassValid, i["\u0275nov"](n, 1272).ngClassInvalid, i["\u0275nov"](n, 1272).ngClassPending), e(n, 1285, 0, i["\u0275nov"](n, 1287).required ? "" : null, i["\u0275nov"](n, 1292).ngClassUntouched, i["\u0275nov"](n, 1292).ngClassTouched, i["\u0275nov"](n, 1292).ngClassPristine, i["\u0275nov"](n, 1292).ngClassDirty, i["\u0275nov"](n, 1292).ngClassValid, i["\u0275nov"](n, 1292).ngClassInvalid, i["\u0275nov"](n, 1292).ngClassPending)
             })
@@ -58519,7 +58519,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 21, "ul", [
                 ["class", "nav navbar-nav navbar-collapse navbar-right"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/privacy"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -58531,7 +58531,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Privacy"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/terms"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -58543,7 +58543,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Terms"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/about"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -58555,7 +58555,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["About"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -58809,7 +58809,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 1, "span", [
                 ["class", "btn-text"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Advanced Search"])), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275ted"](null, ["\n"])), (e()(), i["\u0275ted"](null, ["\n\n"])), (e()(), i["\u0275eld"](0, null, null, 1, "app-footer-navbar", [], null, null, null, Dm, Pm)), i["\u0275did"](114688, null, 0, Lm, [], null, null), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
-                e(n, 16, 0, "/"), e(n, 28, 0, "/privacy"), e(n, 33, 0, "/terms"), e(n, 38, 0, "/about"), e(n, 43, 0, "/contact"), e(n, 233, 0)
+                e(n, 16, 0, "/"), e(n, 28, 0, "/"), e(n, 33, 0, "/"), e(n, 38, 0, "/"), e(n, 43, 0, "/"), e(n, 233, 0)
             }, function(e, n) {
                 e(n, 15, 0, i["\u0275nov"](n, 16).target, i["\u0275nov"](n, 16).href), e(n, 27, 0, i["\u0275nov"](n, 28).target, i["\u0275nov"](n, 28).href), e(n, 32, 0, i["\u0275nov"](n, 33).target, i["\u0275nov"](n, 33).href), e(n, 37, 0, i["\u0275nov"](n, 38).target, i["\u0275nov"](n, 38).href), e(n, 42, 0, i["\u0275nov"](n, 43).target, i["\u0275nov"](n, 43).href), e(n, 60, 0, i["\u0275nov"](n, 64).ngClassUntouched, i["\u0275nov"](n, 64).ngClassTouched, i["\u0275nov"](n, 64).ngClassPristine, i["\u0275nov"](n, 64).ngClassDirty, i["\u0275nov"](n, 64).ngClassValid, i["\u0275nov"](n, 64).ngClassInvalid, i["\u0275nov"](n, 64).ngClassPending), e(n, 134, 0, i["\u0275nov"](n, 138).ngClassUntouched, i["\u0275nov"](n, 138).ngClassTouched, i["\u0275nov"](n, 138).ngClassPristine, i["\u0275nov"](n, 138).ngClassDirty, i["\u0275nov"](n, 138).ngClassValid, i["\u0275nov"](n, 138).ngClassInvalid, i["\u0275nov"](n, 138).ngClassPending)
             })
@@ -58859,7 +58859,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 21, "ul", [
                 ["class", "nav navbar-nav navbar-collapse navbar-right"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/privacy"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -58871,7 +58871,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Privacy"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/terms"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -58883,7 +58883,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Terms"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/about"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -58895,7 +58895,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["About"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -61069,7 +61069,7 @@ webpackJsonp([0], {
                 ["class", "btn-text"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Start New Crawl Job"])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275ted"](null, ["\n\n"])), (e()(), i["\u0275ted"](null, ["\n\n"])), (e()(), i["\u0275eld"](0, null, null, 1, "app-footer-navbar", [], null, null, null, Dm, Pm)), i["\u0275did"](114688, null, 0, Lm, [], null, null), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
                 var t = n.component;
-                e(n, 27, 0, "/privacy"), e(n, 32, 0, "/terms"), e(n, 37, 0, "/about"), e(n, 42, 0, "/contact"), e(n, 92, 0, "crawlingMode", "url"), e(n, 94, 0, "crawlingMode", t.crawlvalues.crawlingMode), e(n, 109, 0, "crawlingURL", t.crawlvalues.crawlingURL), e(n, 124, 0, "crawlingMode", "sitelist"), e(n, 126, 0, "crawlingMode", t.crawlvalues.crawlingMode), e(n, 141, 0, "crawlingMode", "sitemap"), e(n, 143, 0, "crawlingMode", t.crawlvalues.crawlingMode), e(n, 155, 0, "256"), e(n, 158, 0, "sitemapURL", t.crawlvalues.sitemapURL), e(n, 170, 0, "crawlingMode", "file"), e(n, 172, 0, "crawlingMode", t.crawlvalues.crawlingMode), e(n, 186, 0, "256"), e(n, 189, 0, "crawlingFile", t.crawlvalues.crawlingFile), e(n, 227, 0, "2"), e(n, 230, 0, "crawlingDepth", t.crawlvalues.crawlingDepth), e(n, 238, 0, "directDocByURL", t.crawlvalues.directDocByURL), e(n, 255, 0, "100"), e(n, 258, 0, "crawlingDepthExtension", t.crawlvalues.crawlingDepthExtension), e(n, 275, 0, "DomMaxCheck", t.crawlvalues.crawlingDomMaxCheck), e(n, 283, 0, "6"), e(n, 286, 0, "DomMaxPages", t.crawlvalues.crawlingDomMaxPages), e(n, 305, 0, "crawlingQ", t.crawlvalues.crawlingQ), e(n, 315, 0, "obeyhtml", t.crawlvalues.obeyHtmlRobotsNoIndex), e(n, 325, 0, "obeyhtml", t.crawlvalues.obeyHtmlRobotsNoFollow), e(n, 351, 0, "range", "domain"), e(n, 353, 0, "range", t.crawlvalues.range), e(n, 362, 0, "range", "subpath"), e(n, 364, 0, "range", t.crawlvalues.range), e(n, 373, 0, "range"), e(n, 375, 0, "range", t.crawlvalues.range), e(n, 384, 0, "100000"), e(n, 387, 0, "mustmatch", t.crawlvalues.mustmatch), e(n, 397, 0, "100000"), e(n, 400, 0, "mustnotmatch", t.crawlvalues.mustnotmatch), e(n, 421, 0, "100000"), e(n, 424, 0, "ipMustmatch", t.crawlvalues.ipMustmatch), e(n, 434, 0, "100000"), e(n, 437, 0, "ipmustnotmatch", t.crawlvalues.ipMustnotmatch), e(n, 453, 0, "countryMustMatchSwitch", "0"), e(n, 455, 0, "countryMustMatchSwitch", t.crawlvalues.countryMustMatchSwitch), e(n, 465, 0, "countryMustMatchSwitch", "1"), e(n, 467, 0, "countryMustMatchSwitch", t.crawlvalues.countryMustMatchSwitch), e(n, 475, 0, "256"), e(n, 478, 0, "countryMustMatchList", t.crawlvalues.countryMustMatchList), e(n, 523, 0, "index", t.crawlvalues.indexmustmatch), e(n, 534, 0, "index", t.crawlvalues.indexmustnotmatch), e(n, 558, 0, "100000"), e(n, 561, 0, "index", t.crawlvalues.indexcontentmustmatch), e(n, 572, 0, "index", t.crawlvalues.indexcontentmustnotmatch), e(n, 607, 0, "deleteold", "off"), e(n, 609, 0, "deleteold", t.crawlvalues.deleteold), e(n, 628, 0, "deleteold", "on"), e(n, 630, 0, "deleteold", t.crawlvalues.deleteold), e(n, 649, 0, "deleteold", "age"), e(n, 651, 0, "deleteold", t.crawlvalues.deleteold), e(n, 690, 0, "recrawl", "nodoubles"), e(n, 692, 0, "recrawl", t.crawlvalues.recrawl), e(n, 713, 0, "recrawl", "nodobles"), e(n, 715, 0, "recrawl", t.crawlvalues.recrawl), e(n, 755, 0, "storeHT", t.crawlvalues.storeHTCache), e(n, 771, 0, "cache", "nocache"), e(n, 773, 0, "cache", t.crawlvalues.cachePolicy), e(n, 782, 0, "cachepolicy", "iffresh"), e(n, 784, 0, "cachepolicy", t.crawlvalues.cachePolicy), e(n, 793, 0, "cachepolicy", "ifexist"), e(n, 795, 0, "cachepolicy", t.crawlvalues.cachePolicy), e(n, 804, 0, "cachepolicy", "cacheonly"), e(n, 806, 0, "cachepolicy", t.crawlvalues.cachePolicy), e(n, 843, 0, "2"), e(n, 846, 0, "snapshotsmaxdepth", t.crawlvalues.snapshotsMaxDepth), e(n, 861, 0, "replaceold", "on"), e(n, 863, 0, "replaceold", t.crawlvalues.snapshotsReplaceOld), e(n, 872, 0, "replaceold", "off"), e(n, 874, 0, "replaceold", t.crawlvalues.snapshotsReplaceOld), e(n, 894, 0, "100000"), e(n, 897, 0, "mustnotmatch", t.crawlvalues.snapshotsMustnotmatch), e(n, 933, 0, "indextext", t.crawlvalues.indexText), e(n, 943, 0, "indexmedia", t.crawlvalues.indexMedia), e(n, 961, 0, "100"), e(n, 964, 0, "collection", t.crawlvalues.collection), e(n, 979, 0, "4"), e(n, 982, 0, "timezoneoffset", t.crawlvalues.timezoneOffset), e(n, 1001, 0)
+                e(n, 27, 0, "/"), e(n, 32, 0, "/"), e(n, 37, 0, "/"), e(n, 42, 0, "/"), e(n, 92, 0, "crawlingMode", "url"), e(n, 94, 0, "crawlingMode", t.crawlvalues.crawlingMode), e(n, 109, 0, "crawlingURL", t.crawlvalues.crawlingURL), e(n, 124, 0, "crawlingMode", "sitelist"), e(n, 126, 0, "crawlingMode", t.crawlvalues.crawlingMode), e(n, 141, 0, "crawlingMode", "sitemap"), e(n, 143, 0, "crawlingMode", t.crawlvalues.crawlingMode), e(n, 155, 0, "256"), e(n, 158, 0, "sitemapURL", t.crawlvalues.sitemapURL), e(n, 170, 0, "crawlingMode", "file"), e(n, 172, 0, "crawlingMode", t.crawlvalues.crawlingMode), e(n, 186, 0, "256"), e(n, 189, 0, "crawlingFile", t.crawlvalues.crawlingFile), e(n, 227, 0, "2"), e(n, 230, 0, "crawlingDepth", t.crawlvalues.crawlingDepth), e(n, 238, 0, "directDocByURL", t.crawlvalues.directDocByURL), e(n, 255, 0, "100"), e(n, 258, 0, "crawlingDepthExtension", t.crawlvalues.crawlingDepthExtension), e(n, 275, 0, "DomMaxCheck", t.crawlvalues.crawlingDomMaxCheck), e(n, 283, 0, "6"), e(n, 286, 0, "DomMaxPages", t.crawlvalues.crawlingDomMaxPages), e(n, 305, 0, "crawlingQ", t.crawlvalues.crawlingQ), e(n, 315, 0, "obeyhtml", t.crawlvalues.obeyHtmlRobotsNoIndex), e(n, 325, 0, "obeyhtml", t.crawlvalues.obeyHtmlRobotsNoFollow), e(n, 351, 0, "range", "domain"), e(n, 353, 0, "range", t.crawlvalues.range), e(n, 362, 0, "range", "subpath"), e(n, 364, 0, "range", t.crawlvalues.range), e(n, 373, 0, "range"), e(n, 375, 0, "range", t.crawlvalues.range), e(n, 384, 0, "100000"), e(n, 387, 0, "mustmatch", t.crawlvalues.mustmatch), e(n, 397, 0, "100000"), e(n, 400, 0, "mustnotmatch", t.crawlvalues.mustnotmatch), e(n, 421, 0, "100000"), e(n, 424, 0, "ipMustmatch", t.crawlvalues.ipMustmatch), e(n, 434, 0, "100000"), e(n, 437, 0, "ipmustnotmatch", t.crawlvalues.ipMustnotmatch), e(n, 453, 0, "countryMustMatchSwitch", "0"), e(n, 455, 0, "countryMustMatchSwitch", t.crawlvalues.countryMustMatchSwitch), e(n, 465, 0, "countryMustMatchSwitch", "1"), e(n, 467, 0, "countryMustMatchSwitch", t.crawlvalues.countryMustMatchSwitch), e(n, 475, 0, "256"), e(n, 478, 0, "countryMustMatchList", t.crawlvalues.countryMustMatchList), e(n, 523, 0, "index", t.crawlvalues.indexmustmatch), e(n, 534, 0, "index", t.crawlvalues.indexmustnotmatch), e(n, 558, 0, "100000"), e(n, 561, 0, "index", t.crawlvalues.indexcontentmustmatch), e(n, 572, 0, "index", t.crawlvalues.indexcontentmustnotmatch), e(n, 607, 0, "deleteold", "off"), e(n, 609, 0, "deleteold", t.crawlvalues.deleteold), e(n, 628, 0, "deleteold", "on"), e(n, 630, 0, "deleteold", t.crawlvalues.deleteold), e(n, 649, 0, "deleteold", "age"), e(n, 651, 0, "deleteold", t.crawlvalues.deleteold), e(n, 690, 0, "recrawl", "nodoubles"), e(n, 692, 0, "recrawl", t.crawlvalues.recrawl), e(n, 713, 0, "recrawl", "nodobles"), e(n, 715, 0, "recrawl", t.crawlvalues.recrawl), e(n, 755, 0, "storeHT", t.crawlvalues.storeHTCache), e(n, 771, 0, "cache", "nocache"), e(n, 773, 0, "cache", t.crawlvalues.cachePolicy), e(n, 782, 0, "cachepolicy", "iffresh"), e(n, 784, 0, "cachepolicy", t.crawlvalues.cachePolicy), e(n, 793, 0, "cachepolicy", "ifexist"), e(n, 795, 0, "cachepolicy", t.crawlvalues.cachePolicy), e(n, 804, 0, "cachepolicy", "cacheonly"), e(n, 806, 0, "cachepolicy", t.crawlvalues.cachePolicy), e(n, 843, 0, "2"), e(n, 846, 0, "snapshotsmaxdepth", t.crawlvalues.snapshotsMaxDepth), e(n, 861, 0, "replaceold", "on"), e(n, 863, 0, "replaceold", t.crawlvalues.snapshotsReplaceOld), e(n, 872, 0, "replaceold", "off"), e(n, 874, 0, "replaceold", t.crawlvalues.snapshotsReplaceOld), e(n, 894, 0, "100000"), e(n, 897, 0, "mustnotmatch", t.crawlvalues.snapshotsMustnotmatch), e(n, 933, 0, "indextext", t.crawlvalues.indexText), e(n, 943, 0, "indexmedia", t.crawlvalues.indexMedia), e(n, 961, 0, "100"), e(n, 964, 0, "collection", t.crawlvalues.collection), e(n, 979, 0, "4"), e(n, 982, 0, "timezoneoffset", t.crawlvalues.timezoneOffset), e(n, 1001, 0)
             }, function(e, n) {
                 var t = n.component;
                 e(n, 15, 0, i["\u0275inlineInterpolate"](1, "//", t.susperUrl, "")), e(n, 26, 0, i["\u0275nov"](n, 27).target, i["\u0275nov"](n, 27).href), e(n, 31, 0, i["\u0275nov"](n, 32).target, i["\u0275nov"](n, 32).href), e(n, 36, 0, i["\u0275nov"](n, 37).target, i["\u0275nov"](n, 37).href), e(n, 41, 0, i["\u0275nov"](n, 42).target, i["\u0275nov"](n, 42).href), e(n, 56, 0, i["\u0275inlineInterpolate"](1, "http://www.", t.yacyWebSearchUrl, "/wiki/index.php/Dev:APICrawler")), e(n, 78, 0, i["\u0275nov"](n, 82).ngClassUntouched, i["\u0275nov"](n, 82).ngClassTouched, i["\u0275nov"](n, 82).ngClassPristine, i["\u0275nov"](n, 82).ngClassDirty, i["\u0275nov"](n, 82).ngClassValid, i["\u0275nov"](n, 82).ngClassInvalid, i["\u0275nov"](n, 82).ngClassPending), e(n, 90, 0, i["\u0275nov"](n, 96).ngClassUntouched, i["\u0275nov"](n, 96).ngClassTouched, i["\u0275nov"](n, 96).ngClassPristine, i["\u0275nov"](n, 96).ngClassDirty, i["\u0275nov"](n, 96).ngClassValid, i["\u0275nov"](n, 96).ngClassInvalid, i["\u0275nov"](n, 96).ngClassPending), e(n, 106, 0, i["\u0275nov"](n, 111).ngClassUntouched, i["\u0275nov"](n, 111).ngClassTouched, i["\u0275nov"](n, 111).ngClassPristine, i["\u0275nov"](n, 111).ngClassDirty, i["\u0275nov"](n, 111).ngClassValid, i["\u0275nov"](n, 111).ngClassInvalid, i["\u0275nov"](n, 111).ngClassPending), e(n, 122, 0, i["\u0275nov"](n, 128).ngClassUntouched, i["\u0275nov"](n, 128).ngClassTouched, i["\u0275nov"](n, 128).ngClassPristine, i["\u0275nov"](n, 128).ngClassDirty, i["\u0275nov"](n, 128).ngClassValid, i["\u0275nov"](n, 128).ngClassInvalid, i["\u0275nov"](n, 128).ngClassPending), e(n, 139, 0, i["\u0275nov"](n, 145).ngClassUntouched, i["\u0275nov"](n, 145).ngClassTouched, i["\u0275nov"](n, 145).ngClassPristine, i["\u0275nov"](n, 145).ngClassDirty, i["\u0275nov"](n, 145).ngClassValid, i["\u0275nov"](n, 145).ngClassInvalid, i["\u0275nov"](n, 145).ngClassPending), e(n, 153, 0, i["\u0275nov"](n, 155).maxlength ? i["\u0275nov"](n, 155).maxlength : null, i["\u0275nov"](n, 160).ngClassUntouched, i["\u0275nov"](n, 160).ngClassTouched, i["\u0275nov"](n, 160).ngClassPristine, i["\u0275nov"](n, 160).ngClassDirty, i["\u0275nov"](n, 160).ngClassValid, i["\u0275nov"](n, 160).ngClassInvalid, i["\u0275nov"](n, 160).ngClassPending), e(n, 168, 0, i["\u0275nov"](n, 174).ngClassUntouched, i["\u0275nov"](n, 174).ngClassTouched, i["\u0275nov"](n, 174).ngClassPristine, i["\u0275nov"](n, 174).ngClassDirty, i["\u0275nov"](n, 174).ngClassValid, i["\u0275nov"](n, 174).ngClassInvalid, i["\u0275nov"](n, 174).ngClassPending), e(n, 184, 0, i["\u0275nov"](n, 186).maxlength ? i["\u0275nov"](n, 186).maxlength : null, i["\u0275nov"](n, 191).ngClassUntouched, i["\u0275nov"](n, 191).ngClassTouched, i["\u0275nov"](n, 191).ngClassPristine, i["\u0275nov"](n, 191).ngClassDirty, i["\u0275nov"](n, 191).ngClassValid, i["\u0275nov"](n, 191).ngClassInvalid, i["\u0275nov"](n, 191).ngClassPending), e(n, 209, 0, i["\u0275nov"](n, 213).ngClassUntouched, i["\u0275nov"](n, 213).ngClassTouched, i["\u0275nov"](n, 213).ngClassPristine, i["\u0275nov"](n, 213).ngClassDirty, i["\u0275nov"](n, 213).ngClassValid, i["\u0275nov"](n, 213).ngClassInvalid, i["\u0275nov"](n, 213).ngClassPending), e(n, 225, 0, i["\u0275nov"](n, 227).maxlength ? i["\u0275nov"](n, 227).maxlength : null, i["\u0275nov"](n, 232).ngClassUntouched, i["\u0275nov"](n, 232).ngClassTouched, i["\u0275nov"](n, 232).ngClassPristine, i["\u0275nov"](n, 232).ngClassDirty, i["\u0275nov"](n, 232).ngClassValid, i["\u0275nov"](n, 232).ngClassInvalid, i["\u0275nov"](n, 232).ngClassPending), e(n, 235, 0, i["\u0275nov"](n, 240).ngClassUntouched, i["\u0275nov"](n, 240).ngClassTouched, i["\u0275nov"](n, 240).ngClassPristine, i["\u0275nov"](n, 240).ngClassDirty, i["\u0275nov"](n, 240).ngClassValid, i["\u0275nov"](n, 240).ngClassInvalid, i["\u0275nov"](n, 240).ngClassPending), e(n, 253, 0, i["\u0275nov"](n, 255).maxlength ? i["\u0275nov"](n, 255).maxlength : null, i["\u0275nov"](n, 260).ngClassUntouched, i["\u0275nov"](n, 260).ngClassTouched, i["\u0275nov"](n, 260).ngClassPristine, i["\u0275nov"](n, 260).ngClassDirty, i["\u0275nov"](n, 260).ngClassValid, i["\u0275nov"](n, 260).ngClassInvalid, i["\u0275nov"](n, 260).ngClassPending), e(n, 272, 0, i["\u0275nov"](n, 277).ngClassUntouched, i["\u0275nov"](n, 277).ngClassTouched, i["\u0275nov"](n, 277).ngClassPristine, i["\u0275nov"](n, 277).ngClassDirty, i["\u0275nov"](n, 277).ngClassValid, i["\u0275nov"](n, 277).ngClassInvalid, i["\u0275nov"](n, 277).ngClassPending), e(n, 281, 0, i["\u0275nov"](n, 283).maxlength ? i["\u0275nov"](n, 283).maxlength : null, i["\u0275nov"](n, 288).ngClassUntouched, i["\u0275nov"](n, 288).ngClassTouched, i["\u0275nov"](n, 288).ngClassPristine, i["\u0275nov"](n, 288).ngClassDirty, i["\u0275nov"](n, 288).ngClassValid, i["\u0275nov"](n, 288).ngClassInvalid, i["\u0275nov"](n, 288).ngClassPending), e(n, 302, 0, i["\u0275nov"](n, 307).ngClassUntouched, i["\u0275nov"](n, 307).ngClassTouched, i["\u0275nov"](n, 307).ngClassPristine, i["\u0275nov"](n, 307).ngClassDirty, i["\u0275nov"](n, 307).ngClassValid, i["\u0275nov"](n, 307).ngClassInvalid, i["\u0275nov"](n, 307).ngClassPending), e(n, 312, 0, i["\u0275nov"](n, 317).ngClassUntouched, i["\u0275nov"](n, 317).ngClassTouched, i["\u0275nov"](n, 317).ngClassPristine, i["\u0275nov"](n, 317).ngClassDirty, i["\u0275nov"](n, 317).ngClassValid, i["\u0275nov"](n, 317).ngClassInvalid, i["\u0275nov"](n, 317).ngClassPending), e(n, 322, 0, i["\u0275nov"](n, 327).ngClassUntouched, i["\u0275nov"](n, 327).ngClassTouched, i["\u0275nov"](n, 327).ngClassPristine, i["\u0275nov"](n, 327).ngClassDirty, i["\u0275nov"](n, 327).ngClassValid, i["\u0275nov"](n, 327).ngClassInvalid, i["\u0275nov"](n, 327).ngClassPending), e(n, 343, 0, i["\u0275inlineInterpolate"](1, "https://", t.yacySearchlabUrl, "/env/grafics/plus.gif")), e(n, 349, 0, i["\u0275nov"](n, 355).ngClassUntouched, i["\u0275nov"](n, 355).ngClassTouched, i["\u0275nov"](n, 355).ngClassPristine, i["\u0275nov"](n, 355).ngClassDirty, i["\u0275nov"](n, 355).ngClassValid, i["\u0275nov"](n, 355).ngClassInvalid, i["\u0275nov"](n, 355).ngClassPending), e(n, 360, 0, i["\u0275nov"](n, 366).ngClassUntouched, i["\u0275nov"](n, 366).ngClassTouched, i["\u0275nov"](n, 366).ngClassPristine, i["\u0275nov"](n, 366).ngClassDirty, i["\u0275nov"](n, 366).ngClassValid, i["\u0275nov"](n, 366).ngClassInvalid, i["\u0275nov"](n, 366).ngClassPending), e(n, 371, 0, i["\u0275nov"](n, 377).ngClassUntouched, i["\u0275nov"](n, 377).ngClassTouched, i["\u0275nov"](n, 377).ngClassPristine, i["\u0275nov"](n, 377).ngClassDirty, i["\u0275nov"](n, 377).ngClassValid, i["\u0275nov"](n, 377).ngClassInvalid, i["\u0275nov"](n, 377).ngClassPending), e(n, 382, 0, i["\u0275nov"](n, 384).maxlength ? i["\u0275nov"](n, 384).maxlength : null, i["\u0275nov"](n, 389).ngClassUntouched, i["\u0275nov"](n, 389).ngClassTouched, i["\u0275nov"](n, 389).ngClassPristine, i["\u0275nov"](n, 389).ngClassDirty, i["\u0275nov"](n, 389).ngClassValid, i["\u0275nov"](n, 389).ngClassInvalid, i["\u0275nov"](n, 389).ngClassPending), e(n, 391, 0, i["\u0275inlineInterpolate"](1, "https://", t.yacySearchlabUrl, "/env/grafics/minus.gif")), e(n, 395, 0, i["\u0275nov"](n, 397).maxlength ? i["\u0275nov"](n, 397).maxlength : null, i["\u0275nov"](n, 402).ngClassUntouched, i["\u0275nov"](n, 402).ngClassTouched, i["\u0275nov"](n, 402).ngClassPristine, i["\u0275nov"](n, 402).ngClassDirty, i["\u0275nov"](n, 402).ngClassValid, i["\u0275nov"](n, 402).ngClassInvalid, i["\u0275nov"](n, 402).ngClassPending), e(n, 414, 0, i["\u0275inlineInterpolate"](1, "https://", t.yacySearchlabUrl, "/env/grafics/plus.gif")), e(n, 419, 0, i["\u0275nov"](n, 421).maxlength ? i["\u0275nov"](n, 421).maxlength : null, i["\u0275nov"](n, 426).ngClassUntouched, i["\u0275nov"](n, 426).ngClassTouched, i["\u0275nov"](n, 426).ngClassPristine, i["\u0275nov"](n, 426).ngClassDirty, i["\u0275nov"](n, 426).ngClassValid, i["\u0275nov"](n, 426).ngClassInvalid, i["\u0275nov"](n, 426).ngClassPending), e(n, 428, 0, i["\u0275inlineInterpolate"](1, "https://", t.yacySearchlabUrl, "/env/grafics/minus.gif")), e(n, 432, 0, i["\u0275nov"](n, 434).maxlength ? i["\u0275nov"](n, 434).maxlength : null, i["\u0275nov"](n, 439).ngClassUntouched, i["\u0275nov"](n, 439).ngClassTouched, i["\u0275nov"](n, 439).ngClassPristine, i["\u0275nov"](n, 439).ngClassDirty, i["\u0275nov"](n, 439).ngClassValid, i["\u0275nov"](n, 439).ngClassInvalid, i["\u0275nov"](n, 439).ngClassPending), e(n, 451, 0, "0" === t.crawlvalues.countryMustMatchSwitch, i["\u0275nov"](n, 457).ngClassUntouched, i["\u0275nov"](n, 457).ngClassTouched, i["\u0275nov"](n, 457).ngClassPristine, i["\u0275nov"](n, 457).ngClassDirty, i["\u0275nov"](n, 457).ngClassValid, i["\u0275nov"](n, 457).ngClassInvalid, i["\u0275nov"](n, 457).ngClassPending), e(n, 463, 0, i["\u0275nov"](n, 469).ngClassUntouched, i["\u0275nov"](n, 469).ngClassTouched, i["\u0275nov"](n, 469).ngClassPristine, i["\u0275nov"](n, 469).ngClassDirty, i["\u0275nov"](n, 469).ngClassValid, i["\u0275nov"](n, 469).ngClassInvalid, i["\u0275nov"](n, 469).ngClassPending), e(n, 473, 0, i["\u0275nov"](n, 475).maxlength ? i["\u0275nov"](n, 475).maxlength : null, i["\u0275nov"](n, 480).ngClassUntouched, i["\u0275nov"](n, 480).ngClassTouched, i["\u0275nov"](n, 480).ngClassPristine, i["\u0275nov"](n, 480).ngClassDirty, i["\u0275nov"](n, 480).ngClassValid, i["\u0275nov"](n, 480).ngClassInvalid, i["\u0275nov"](n, 480).ngClassPending), e(n, 498, 0, i["\u0275nov"](n, 502).ngClassUntouched, i["\u0275nov"](n, 502).ngClassTouched, i["\u0275nov"](n, 502).ngClassPristine, i["\u0275nov"](n, 502).ngClassDirty, i["\u0275nov"](n, 502).ngClassValid, i["\u0275nov"](n, 502).ngClassInvalid, i["\u0275nov"](n, 502).ngClassPending), e(n, 516, 0, i["\u0275inlineInterpolate"](1, "https://", t.yacySearchlabUrl, "/env/grafics/plus.gif")), e(n, 520, 0, i["\u0275nov"](n, 525).ngClassUntouched, i["\u0275nov"](n, 525).ngClassTouched, i["\u0275nov"](n, 525).ngClassPristine, i["\u0275nov"](n, 525).ngClassDirty, i["\u0275nov"](n, 525).ngClassValid, i["\u0275nov"](n, 525).ngClassInvalid, i["\u0275nov"](n, 525).ngClassPending), e(n, 527, 0, i["\u0275inlineInterpolate"](1, "https://", t.yacySearchlabUrl, "/env/grafics/minus.gif")), e(n, 531, 0, i["\u0275nov"](n, 536).ngClassUntouched, i["\u0275nov"](n, 536).ngClassTouched, i["\u0275nov"](n, 536).ngClassPristine, i["\u0275nov"](n, 536).ngClassDirty, i["\u0275nov"](n, 536).ngClassValid, i["\u0275nov"](n, 536).ngClassInvalid, i["\u0275nov"](n, 536).ngClassPending), e(n, 552, 0, i["\u0275inlineInterpolate"](1, "https://", t.yacySearchlabUrl, "/env/grafics/plus.gif")), e(n, 556, 0, i["\u0275nov"](n, 558).maxlength ? i["\u0275nov"](n, 558).maxlength : null, i["\u0275nov"](n, 563).ngClassUntouched, i["\u0275nov"](n, 563).ngClassTouched, i["\u0275nov"](n, 563).ngClassPristine, i["\u0275nov"](n, 563).ngClassDirty, i["\u0275nov"](n, 563).ngClassValid, i["\u0275nov"](n, 563).ngClassInvalid, i["\u0275nov"](n, 563).ngClassPending), e(n, 565, 0, i["\u0275inlineInterpolate"](1, "https://", t.yacySearchlabUrl, "/env/grafics/minus.gif")), e(n, 569, 0, i["\u0275nov"](n, 574).ngClassUntouched, i["\u0275nov"](n, 574).ngClassTouched, i["\u0275nov"](n, 574).ngClassPristine, i["\u0275nov"](n, 574).ngClassDirty, i["\u0275nov"](n, 574).ngClassValid, i["\u0275nov"](n, 574).ngClassInvalid, i["\u0275nov"](n, 574).ngClassPending), e(n, 587, 0, i["\u0275nov"](n, 591).ngClassUntouched, i["\u0275nov"](n, 591).ngClassTouched, i["\u0275nov"](n, 591).ngClassPristine, i["\u0275nov"](n, 591).ngClassDirty, i["\u0275nov"](n, 591).ngClassValid, i["\u0275nov"](n, 591).ngClassInvalid, i["\u0275nov"](n, 591).ngClassPending), e(n, 605, 0, i["\u0275nov"](n, 611).ngClassUntouched, i["\u0275nov"](n, 611).ngClassTouched, i["\u0275nov"](n, 611).ngClassPristine, i["\u0275nov"](n, 611).ngClassDirty, i["\u0275nov"](n, 611).ngClassValid, i["\u0275nov"](n, 611).ngClassInvalid, i["\u0275nov"](n, 611).ngClassPending), e(n, 626, 0, i["\u0275nov"](n, 632).ngClassUntouched, i["\u0275nov"](n, 632).ngClassTouched, i["\u0275nov"](n, 632).ngClassPristine, i["\u0275nov"](n, 632).ngClassDirty, i["\u0275nov"](n, 632).ngClassValid, i["\u0275nov"](n, 632).ngClassInvalid, i["\u0275nov"](n, 632).ngClassPending), e(n, 647, 0, i["\u0275nov"](n, 653).ngClassUntouched, i["\u0275nov"](n, 653).ngClassTouched, i["\u0275nov"](n, 653).ngClassPristine, i["\u0275nov"](n, 653).ngClassDirty, i["\u0275nov"](n, 653).ngClassValid, i["\u0275nov"](n, 653).ngClassInvalid, i["\u0275nov"](n, 653).ngClassPending), e(n, 670, 0, i["\u0275nov"](n, 674).ngClassUntouched, i["\u0275nov"](n, 674).ngClassTouched, i["\u0275nov"](n, 674).ngClassPristine, i["\u0275nov"](n, 674).ngClassDirty, i["\u0275nov"](n, 674).ngClassValid, i["\u0275nov"](n, 674).ngClassInvalid, i["\u0275nov"](n, 674).ngClassPending), e(n, 688, 0, i["\u0275nov"](n, 694).ngClassUntouched, i["\u0275nov"](n, 694).ngClassTouched, i["\u0275nov"](n, 694).ngClassPristine, i["\u0275nov"](n, 694).ngClassDirty, i["\u0275nov"](n, 694).ngClassValid, i["\u0275nov"](n, 694).ngClassInvalid, i["\u0275nov"](n, 694).ngClassPending), e(n, 711, 0, i["\u0275nov"](n, 717).ngClassUntouched, i["\u0275nov"](n, 717).ngClassTouched, i["\u0275nov"](n, 717).ngClassPristine, i["\u0275nov"](n, 717).ngClassDirty, i["\u0275nov"](n, 717).ngClassValid, i["\u0275nov"](n, 717).ngClassInvalid, i["\u0275nov"](n, 717).ngClassPending), e(n, 734, 0, i["\u0275nov"](n, 738).ngClassUntouched, i["\u0275nov"](n, 738).ngClassTouched, i["\u0275nov"](n, 738).ngClassPristine, i["\u0275nov"](n, 738).ngClassDirty, i["\u0275nov"](n, 738).ngClassValid, i["\u0275nov"](n, 738).ngClassInvalid, i["\u0275nov"](n, 738).ngClassPending), e(n, 752, 0, i["\u0275nov"](n, 757).ngClassUntouched, i["\u0275nov"](n, 757).ngClassTouched, i["\u0275nov"](n, 757).ngClassPristine, i["\u0275nov"](n, 757).ngClassDirty, i["\u0275nov"](n, 757).ngClassValid, i["\u0275nov"](n, 757).ngClassInvalid, i["\u0275nov"](n, 757).ngClassPending), e(n, 769, 0, i["\u0275nov"](n, 775).ngClassUntouched, i["\u0275nov"](n, 775).ngClassTouched, i["\u0275nov"](n, 775).ngClassPristine, i["\u0275nov"](n, 775).ngClassDirty, i["\u0275nov"](n, 775).ngClassValid, i["\u0275nov"](n, 775).ngClassInvalid, i["\u0275nov"](n, 775).ngClassPending), e(n, 780, 0, i["\u0275nov"](n, 786).ngClassUntouched, i["\u0275nov"](n, 786).ngClassTouched, i["\u0275nov"](n, 786).ngClassPristine, i["\u0275nov"](n, 786).ngClassDirty, i["\u0275nov"](n, 786).ngClassValid, i["\u0275nov"](n, 786).ngClassInvalid, i["\u0275nov"](n, 786).ngClassPending), e(n, 791, 0, i["\u0275nov"](n, 797).ngClassUntouched, i["\u0275nov"](n, 797).ngClassTouched, i["\u0275nov"](n, 797).ngClassPristine, i["\u0275nov"](n, 797).ngClassDirty, i["\u0275nov"](n, 797).ngClassValid, i["\u0275nov"](n, 797).ngClassInvalid, i["\u0275nov"](n, 797).ngClassPending), e(n, 802, 0, i["\u0275nov"](n, 808).ngClassUntouched, i["\u0275nov"](n, 808).ngClassTouched, i["\u0275nov"](n, 808).ngClassPristine, i["\u0275nov"](n, 808).ngClassDirty, i["\u0275nov"](n, 808).ngClassValid, i["\u0275nov"](n, 808).ngClassInvalid, i["\u0275nov"](n, 808).ngClassPending), e(n, 825, 0, i["\u0275nov"](n, 829).ngClassUntouched, i["\u0275nov"](n, 829).ngClassTouched, i["\u0275nov"](n, 829).ngClassPristine, i["\u0275nov"](n, 829).ngClassDirty, i["\u0275nov"](n, 829).ngClassValid, i["\u0275nov"](n, 829).ngClassInvalid, i["\u0275nov"](n, 829).ngClassPending), e(n, 841, 0, i["\u0275nov"](n, 843).maxlength ? i["\u0275nov"](n, 843).maxlength : null, i["\u0275nov"](n, 848).ngClassUntouched, i["\u0275nov"](n, 848).ngClassTouched, i["\u0275nov"](n, 848).ngClassPristine, i["\u0275nov"](n, 848).ngClassDirty, i["\u0275nov"](n, 848).ngClassValid, i["\u0275nov"](n, 848).ngClassInvalid, i["\u0275nov"](n, 848).ngClassPending), e(n, 859, 0, i["\u0275nov"](n, 865).ngClassUntouched, i["\u0275nov"](n, 865).ngClassTouched, i["\u0275nov"](n, 865).ngClassPristine, i["\u0275nov"](n, 865).ngClassDirty, i["\u0275nov"](n, 865).ngClassValid, i["\u0275nov"](n, 865).ngClassInvalid, i["\u0275nov"](n, 865).ngClassPending), e(n, 870, 0, i["\u0275nov"](n, 876).ngClassUntouched, i["\u0275nov"](n, 876).ngClassTouched, i["\u0275nov"](n, 876).ngClassPristine, i["\u0275nov"](n, 876).ngClassDirty, i["\u0275nov"](n, 876).ngClassValid, i["\u0275nov"](n, 876).ngClassInvalid, i["\u0275nov"](n, 876).ngClassPending), e(n, 892, 0, i["\u0275nov"](n, 894).maxlength ? i["\u0275nov"](n, 894).maxlength : null, i["\u0275nov"](n, 899).ngClassUntouched, i["\u0275nov"](n, 899).ngClassTouched, i["\u0275nov"](n, 899).ngClassPristine, i["\u0275nov"](n, 899).ngClassDirty, i["\u0275nov"](n, 899).ngClassValid, i["\u0275nov"](n, 899).ngClassInvalid, i["\u0275nov"](n, 899).ngClassPending), e(n, 914, 0, i["\u0275nov"](n, 918).ngClassUntouched, i["\u0275nov"](n, 918).ngClassTouched, i["\u0275nov"](n, 918).ngClassPristine, i["\u0275nov"](n, 918).ngClassDirty, i["\u0275nov"](n, 918).ngClassValid, i["\u0275nov"](n, 918).ngClassInvalid, i["\u0275nov"](n, 918).ngClassPending), e(n, 930, 0, i["\u0275nov"](n, 935).ngClassUntouched, i["\u0275nov"](n, 935).ngClassTouched, i["\u0275nov"](n, 935).ngClassPristine, i["\u0275nov"](n, 935).ngClassDirty, i["\u0275nov"](n, 935).ngClassValid, i["\u0275nov"](n, 935).ngClassInvalid, i["\u0275nov"](n, 935).ngClassPending), e(n, 940, 0, i["\u0275nov"](n, 945).ngClassUntouched, i["\u0275nov"](n, 945).ngClassTouched, i["\u0275nov"](n, 945).ngClassPristine, i["\u0275nov"](n, 945).ngClassDirty, i["\u0275nov"](n, 945).ngClassValid, i["\u0275nov"](n, 945).ngClassInvalid, i["\u0275nov"](n, 945).ngClassPending), e(n, 959, 0, i["\u0275nov"](n, 961).maxlength ? i["\u0275nov"](n, 961).maxlength : null, i["\u0275nov"](n, 966).ngClassUntouched, i["\u0275nov"](n, 966).ngClassTouched, i["\u0275nov"](n, 966).ngClassPristine, i["\u0275nov"](n, 966).ngClassDirty, i["\u0275nov"](n, 966).ngClassValid, i["\u0275nov"](n, 966).ngClassInvalid, i["\u0275nov"](n, 966).ngClassPending), e(n, 977, 0, i["\u0275nov"](n, 979).maxlength ? i["\u0275nov"](n, 979).maxlength : null, i["\u0275nov"](n, 984).ngClassUntouched, i["\u0275nov"](n, 984).ngClassTouched, i["\u0275nov"](n, 984).ngClassPristine, i["\u0275nov"](n, 984).ngClassDirty, i["\u0275nov"](n, 984).ngClassValid, i["\u0275nov"](n, 984).ngClassInvalid, i["\u0275nov"](n, 984).ngClassPending)
@@ -61120,7 +61120,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n      "])), (e()(), i["\u0275eld"](0, null, null, 21, "ul", [
                 ["class", "nav navbar-nav navbar-collapse navbar-right"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/privacy"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -61132,7 +61132,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Privacy"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/terms"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -61144,7 +61144,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Terms"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/about"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -61156,7 +61156,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["About"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -61384,7 +61384,7 @@ webpackJsonp([0], {
                 return "click" === n && (l = !1 !== e.component.onSave() && l), l
             }, null, null)), (e()(), i["\u0275ted"](null, ["Save"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275ted"](null, ["\n\n      "])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275ted"](null, ["\n"])), (e()(), i["\u0275ted"](null, ["\n\n"])), (e()(), i["\u0275eld"](0, null, null, 4, "footer", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n  "])), (e()(), i["\u0275eld"](0, null, null, 1, "app-footer-navbar", [], null, null, null, Dm, Pm)), i["\u0275did"](114688, null, 0, Lm, [], null, null), (e()(), i["\u0275ted"](null, ["\n"])), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
                 var t = n.component;
-                e(n, 27, 0, "/privacy"), e(n, 32, 0, "/"), e(n, 37, 0, "/"), e(n, 42, 0, "/"), e(n, 70, 0, "/"), e(n, 107, 0, "options", "#"), e(n, 109, 0, "options", "", t.instantresults), e(n, 118, 0, "options", !1), e(n, 120, 0, "options", t.instantresults), e(n, 129, 0, "options", !0), e(n, 131, 0, "options", t.instantresults), e(n, 153, 0, t.instantresults, t.resultCount), e(n, 180, 0)
+                e(n, 27, 0, "/"), e(n, 32, 0, "/"), e(n, 37, 0, "/"), e(n, 42, 0, "/"), e(n, 70, 0, "/"), e(n, 107, 0, "options", "#"), e(n, 109, 0, "options", "", t.instantresults), e(n, 118, 0, "options", !1), e(n, 120, 0, "options", t.instantresults), e(n, 129, 0, "options", !0), e(n, 131, 0, "options", t.instantresults), e(n, 153, 0, t.instantresults, t.resultCount), e(n, 180, 0)
             }, function(e, n) {
                 var t = n.component;
                 e(n, 15, 0, i["\u0275inlineInterpolate"](1, "//", t.susperUrl, "")), e(n, 26, 0, i["\u0275nov"](n, 27).target, i["\u0275nov"](n, 27).href), e(n, 31, 0, i["\u0275nov"](n, 32).target, i["\u0275nov"](n, 32).href), e(n, 36, 0, i["\u0275nov"](n, 37).target, i["\u0275nov"](n, 37).href), e(n, 41, 0, i["\u0275nov"](n, 42).target, i["\u0275nov"](n, 42).href), e(n, 69, 0, i["\u0275nov"](n, 70).target, i["\u0275nov"](n, 70).href), e(n, 105, 0, i["\u0275nov"](n, 111).ngClassUntouched, i["\u0275nov"](n, 111).ngClassTouched, i["\u0275nov"](n, 111).ngClassPristine, i["\u0275nov"](n, 111).ngClassDirty, i["\u0275nov"](n, 111).ngClassValid, i["\u0275nov"](n, 111).ngClassInvalid, i["\u0275nov"](n, 111).ngClassPending), e(n, 116, 0, i["\u0275nov"](n, 122).ngClassUntouched, i["\u0275nov"](n, 122).ngClassTouched, i["\u0275nov"](n, 122).ngClassPristine, i["\u0275nov"](n, 122).ngClassDirty, i["\u0275nov"](n, 122).ngClassValid, i["\u0275nov"](n, 122).ngClassInvalid, i["\u0275nov"](n, 122).ngClassPending), e(n, 127, 0, i["\u0275nov"](n, 133).ngClassUntouched, i["\u0275nov"](n, 133).ngClassTouched, i["\u0275nov"](n, 133).ngClassPristine, i["\u0275nov"](n, 133).ngClassDirty, i["\u0275nov"](n, 133).ngClassValid, i["\u0275nov"](n, 133).ngClassInvalid, i["\u0275nov"](n, 133).ngClassPending), e(n, 149, 0, i["\u0275nov"](n, 155).ngClassUntouched, i["\u0275nov"](n, 155).ngClassTouched, i["\u0275nov"](n, 155).ngClassPristine, i["\u0275nov"](n, 155).ngClassDirty, i["\u0275nov"](n, 155).ngClassValid, i["\u0275nov"](n, 155).ngClassInvalid, i["\u0275nov"](n, 155).ngClassPending), e(n, 158, 0, t.resultCount)
@@ -61463,7 +61463,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 21, "ul", [
                 ["class", "nav navbar-nav navbar-collapse navbar-right"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/privacy"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -61475,7 +61475,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Privacy"])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/terms"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -61487,7 +61487,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["Terms"])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/about"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -61499,7 +61499,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), (e()(), i["\u0275ted"](null, ["About"])), (e()(), i["\u0275ted"](null, ["\n                "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -61740,7 +61740,7 @@ webpackJsonp([0], {
             }, null, null)), i["\u0275did"](671744, null, 0, er, [ql, ul, a.LocationStrategy], {
                 routerLink: [0, "routerLink"]
             }, null), i["\u0275pad"](1), (e()(), i["\u0275ted"](null, ["Use image search"])), (e()(), i["\u0275ted"](null, ["\n                    "])), (e()(), i["\u0275eld"](0, null, null, 3, "p", [], null, null, null, null, null)), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/about"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -62041,8 +62041,8 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](0, ["\n    "])), (e()(), i["\u0275eld"](0, null, 0, 21, "div", [
                 ["class", "queries"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 1, "h3", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["How to search images on Susper?"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 1, "p", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["You can search Susper for images, just like you can search for websites. For example, you can check out pictures of potential vacation destinations, or find an image to use in an upcoming presentation."])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 12, "ol", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 3, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Go to "])), (e()(), i["\u0275eld"](0, null, null, 1, "a", [
-                ["href", "https://susper.com"]
-            ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["susper.com"])), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 1, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Search your query"])), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 1, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Then select the Image tab, located below the search bar"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](0, ["\n"])), (e()(), i["\u0275ted"](null, ["\n\n"])), (e()(), i["\u0275eld"](0, null, null, 32, "modal", [
+                ["href", "#"]
+            ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["#"])), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 1, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Search your query"])), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 1, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Then select the Image tab, located below the search bar"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](0, ["\n"])), (e()(), i["\u0275ted"](null, ["\n\n"])), (e()(), i["\u0275eld"](0, null, null, 32, "modal", [
                 ["class", "modal"],
                 ["role", "dialog"],
                 ["tabindex", "-1"]
@@ -62103,7 +62103,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](0, ["\n    "])), (e()(), i["\u0275eld"](0, null, 0, 28, "div", [
                 ["class", "queries"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 1, "h3", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["How to report a problem with Susper?"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 1, "p", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["If you're having a problem with Susper Search, or want to tell us your thoughts about how it's working, you can send a feedback report to Susper."])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 19, "ol", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n            "])), (e()(), i["\u0275eld"](0, null, null, 4, "li", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Open our "])), (e()(), i["\u0275eld"](0, null, null, 2, "a", [
-                ["routerLink", "/contact"]
+                ["routerLink", "/"]
             ], [
                 [1, "target", 0],
                 [8, "href", 4]
@@ -62219,7 +62219,7 @@ webpackJsonp([0], {
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](0, ["\n    "])), (e()(), i["\u0275eld"](0, null, 0, 7, "div", [
                 ["class", "queries"]
             ], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 1, "h3", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["Refine Search"])), (e()(), i["\u0275ted"](null, ["\n        "])), (e()(), i["\u0275eld"](0, null, null, 1, "p", [], null, null, null, null, null)), (e()(), i["\u0275ted"](null, ["You can use symbols or words in your search to make your results more precise."])), (e()(), i["\u0275ted"](null, ["\n    "])), (e()(), i["\u0275ted"](0, ["\n"])), (e()(), i["\u0275ted"](null, ["\n"]))], function(e, n) {
-                e(n, 25, 0, "/"), e(n, 37, 0, "/privacy"), e(n, 42, 0, "/terms"), e(n, 47, 0, "/about"), e(n, 52, 0, "/contact"), e(n, 90, 0, e(n, 91, 0, "/help")), e(n, 96, 0, e(n, 97, 0, "/help")), e(n, 102, 0, e(n, 103, 0, "/help")), e(n, 108, 0, e(n, 109, 0, "/help")), e(n, 128, 0, e(n, 129, 0, "/help")), e(n, 134, 0, e(n, 135, 0, "/help")), e(n, 154, 0, e(n, 155, 0, "/help")), e(n, 160, 0, e(n, 161, 0, "/help")), e(n, 166, 0, e(n, 167, 0, "/help")), e(n, 172, 0, "/preferences"), e(n, 191, 0, e(n, 192, 0, "/help")), e(n, 197, 0, e(n, 198, 0, "/help")), e(n, 203, 0, "/help"), e(n, 222, 0, e(n, 223, 0, "/help")), e(n, 228, 0, e(n, 229, 0, "/help")), e(n, 234, 0, "/about"), e(n, 253, 0, e(n, 254, 0, "/help")), e(n, 259, 0, e(n, 260, 0, "/help")), e(n, 265, 0, "/advancedsearch"), e(n, 270, 0, "/advancedsearch"), e(n, 445, 0), e(n, 560, 0, "/preferences"), e(n, 594, 0, "/contact")
+                e(n, 25, 0, "/"), e(n, 37, 0, "/"), e(n, 42, 0, "/"), e(n, 47, 0, "/"), e(n, 52, 0, "/"), e(n, 90, 0, e(n, 91, 0, "/help")), e(n, 96, 0, e(n, 97, 0, "/help")), e(n, 102, 0, e(n, 103, 0, "/help")), e(n, 108, 0, e(n, 109, 0, "/help")), e(n, 128, 0, e(n, 129, 0, "/help")), e(n, 134, 0, e(n, 135, 0, "/help")), e(n, 154, 0, e(n, 155, 0, "/help")), e(n, 160, 0, e(n, 161, 0, "/help")), e(n, 166, 0, e(n, 167, 0, "/help")), e(n, 172, 0, "/preferences"), e(n, 191, 0, e(n, 192, 0, "/help")), e(n, 197, 0, e(n, 198, 0, "/help")), e(n, 203, 0, "/help"), e(n, 222, 0, e(n, 223, 0, "/help")), e(n, 228, 0, e(n, 229, 0, "/help")), e(n, 234, 0, "/"), e(n, 253, 0, e(n, 254, 0, "/help")), e(n, 259, 0, e(n, 260, 0, "/help")), e(n, 265, 0, "/advancedsearch"), e(n, 270, 0, "/advancedsearch"), e(n, 445, 0), e(n, 560, 0, "/preferences"), e(n, 594, 0, "/")
             }, function(e, n) {
                 e(n, 24, 0, i["\u0275nov"](n, 25).target, i["\u0275nov"](n, 25).href), e(n, 36, 0, i["\u0275nov"](n, 37).target, i["\u0275nov"](n, 37).href), e(n, 41, 0, i["\u0275nov"](n, 42).target, i["\u0275nov"](n, 42).href), e(n, 46, 0, i["\u0275nov"](n, 47).target, i["\u0275nov"](n, 47).href), e(n, 51, 0, i["\u0275nov"](n, 52).target, i["\u0275nov"](n, 52).href), e(n, 89, 0, i["\u0275nov"](n, 90).target, i["\u0275nov"](n, 90).href), e(n, 95, 0, i["\u0275nov"](n, 96).target, i["\u0275nov"](n, 96).href), e(n, 101, 0, i["\u0275nov"](n, 102).target, i["\u0275nov"](n, 102).href), e(n, 107, 0, i["\u0275nov"](n, 108).target, i["\u0275nov"](n, 108).href), e(n, 127, 0, i["\u0275nov"](n, 128).target, i["\u0275nov"](n, 128).href), e(n, 133, 0, i["\u0275nov"](n, 134).target, i["\u0275nov"](n, 134).href), e(n, 153, 0, i["\u0275nov"](n, 154).target, i["\u0275nov"](n, 154).href), e(n, 159, 0, i["\u0275nov"](n, 160).target, i["\u0275nov"](n, 160).href), e(n, 165, 0, i["\u0275nov"](n, 166).target, i["\u0275nov"](n, 166).href), e(n, 171, 0, i["\u0275nov"](n, 172).target, i["\u0275nov"](n, 172).href), e(n, 190, 0, i["\u0275nov"](n, 191).target, i["\u0275nov"](n, 191).href), e(n, 196, 0, i["\u0275nov"](n, 197).target, i["\u0275nov"](n, 197).href), e(n, 202, 0, i["\u0275nov"](n, 203).target, i["\u0275nov"](n, 203).href), e(n, 221, 0, i["\u0275nov"](n, 222).target, i["\u0275nov"](n, 222).href), e(n, 227, 0, i["\u0275nov"](n, 228).target, i["\u0275nov"](n, 228).href), e(n, 233, 0, i["\u0275nov"](n, 234).target, i["\u0275nov"](n, 234).href), e(n, 252, 0, i["\u0275nov"](n, 253).target, i["\u0275nov"](n, 253).href), e(n, 258, 0, i["\u0275nov"](n, 259).target, i["\u0275nov"](n, 259).href), e(n, 264, 0, i["\u0275nov"](n, 265).target, i["\u0275nov"](n, 265).href), e(n, 269, 0, i["\u0275nov"](n, 270).target, i["\u0275nov"](n, 270).href), e(n, 448, 0, i["\u0275nov"](n, 449).fadeClass, i["\u0275nov"](n, 449).dataKeyboardAttr, i["\u0275nov"](n, 449).dataBackdropAttr), e(n, 486, 0, i["\u0275nov"](n, 487).fadeClass, i["\u0275nov"](n, 487).dataKeyboardAttr, i["\u0275nov"](n, 487).dataBackdropAttr), e(n, 505, 0, i["\u0275nov"](n, 506).fadeClass, i["\u0275nov"](n, 506).dataKeyboardAttr, i["\u0275nov"](n, 506).dataBackdropAttr), e(n, 538, 0, i["\u0275nov"](n, 539).fadeClass, i["\u0275nov"](n, 539).dataKeyboardAttr, i["\u0275nov"](n, 539).dataBackdropAttr), e(n, 559, 0, i["\u0275nov"](n, 560).target, i["\u0275nov"](n, 560).href), e(n, 572, 0, i["\u0275nov"](n, 573).fadeClass, i["\u0275nov"](n, 573).dataKeyboardAttr, i["\u0275nov"](n, 573).dataBackdropAttr), e(n, 593, 0, i["\u0275nov"](n, 594).target, i["\u0275nov"](n, 594).href), e(n, 612, 0, i["\u0275nov"](n, 613).fadeClass, i["\u0275nov"](n, 613).dataKeyboardAttr, i["\u0275nov"](n, 613).dataBackdropAttr), e(n, 647, 0, i["\u0275nov"](n, 648).fadeClass, i["\u0275nov"](n, 648).dataKeyboardAttr, i["\u0275nov"](n, 648).dataBackdropAttr), e(n, 684, 0, i["\u0275nov"](n, 685).fadeClass, i["\u0275nov"](n, 685).dataKeyboardAttr, i["\u0275nov"](n, 685).dataBackdropAttr), e(n, 715, 0, i["\u0275nov"](n, 716).fadeClass, i["\u0275nov"](n, 716).dataKeyboardAttr, i["\u0275nov"](n, 716).dataBackdropAttr)
             })
@@ -62708,7 +62708,7 @@ webpackJsonp([0], {
                             component: iu
                         }, {
                             path: "**",
-                            redirectTo: "search"
+                            redirectTo: ""
                         }]
                     ], this._Router_24 = yr(0, this._UrlSerializer_16, this._RouterOutletMap_17, this._Location_20, this, this._NgModuleFactoryLoader_22, this._Compiler_21, this._ROUTES_23, this._ROUTER_CONFIGURATION_18, this.parent.get(Fl, null), this.parent.get(ir, null)), this._RouterModule_25 = new pr(this._\u0275a_15, this._Router_24), this._StoreModule_26 = new pi, this._Dispatcher_27 = new jr, this._REDUX_DEVTOOLS_EXTENSION_28 = "object" == typeof window && "undefined" != typeof window.devToolsExtension ? window.devToolsExtension : "object" == typeof window && "undefined" != typeof window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__ : null, this.__INITIAL_REDUCER_29 = Di, this._INITIAL_REDUCER_30 = si(this.__INITIAL_REDUCER_29), this._Reducer_31 = ws(this._REDUX_DEVTOOLS_EXTENSION_28, this, this._INITIAL_REDUCER_30), this.__INITIAL_STATE_32 = void 0, this._INITIAL_STATE_33 = ci(this.__INITIAL_STATE_32, this._INITIAL_REDUCER_30), this._State_34 = bs(this._REDUX_DEVTOOLS_EXTENSION_28, this, this._INITIAL_STATE_33), this._Store_35 = di(this._Dispatcher_27, this._Reducer_31, this._State_34), this._Actions_36 = new Ca(this._Dispatcher_27), this._BrowserXhr_37 = new Ji, this._ResponseOptions_38 = new lo, this._XSRFStrategy_39 = new So, this._XHRBackend_40 = new Oo(this._BrowserXhr_37, this._ResponseOptions_38, this._XSRFStrategy_39), this._RequestOptions_41 = new Lo, this._Http_42 = new No(this._XHRBackend_40, this._RequestOptions_41), this._\u0275g_43 = new yo, this._JSONPBackend_44 = new Mo(this._\u0275g_43, this._ResponseOptions_38), this._Jsonp_45 = function(e, n) {
                         return new Fo(e, n)
