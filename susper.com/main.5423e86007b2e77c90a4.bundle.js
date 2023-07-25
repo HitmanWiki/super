@@ -46414,39 +46414,39 @@ webpackJsonp([0], {
                     websearch_api: "yacy-websearch.net"
                 },
                 fossasia: {
-                    site: "fossasia.org",
-                    blog: "blog.fossasia.org",
-                    labs: "labs.fossasia.org"
+                    site: "#",
+                    blog: "#",
+                    labs: "#"
                 },
                 loklak: {
-                    site: "loklak.org"
+                    site: "#"
                 },
                 susi: {
-                    site: "chat.susi.ai"
+                    site: "#"
                 },
-                eventyay: {
-                    site: "eventyay.com"
+                explorer: {
+                    site: "#"
                 },
-                pslab: {
-                    site: "pslab.io"
+                DNV: {
+                    site: "#"
                 },
-                badgeyay: {
-                    site: "http://badgeyay.com"
+                About: {
+                    site: "#"
                 },
-                meilix: {
-                    site: "meilix.org"
+                bug: {
+                    site: "#"
                 },
-                phimpme: {
-                    site: "https://phimp.me/"
+                phi: {
+                    site: "#"
                 },
-                susimagicmirror: {
-                    site: "https://github.com/fossasia/MMM-SUSI-AI"
+                magicmirror: {
+                    site: "#"
                 },
-                yaydoc: {
-                    site: "http://dev.yaydoc.org"
+                docs: {
+                    site: "#"
                 },
                 github_repo: {
-                    fossasia: "https://github.com/fossasia"
+                    fossasia: "#"
                 }
             },
             Ki = function() {
@@ -47355,7 +47355,7 @@ webpackJsonp([0], {
                     var l = new To({
                         search: n
                     });
-                    return this.jsonp.get("https://yacy.searchlab.eu/Crawler_p.json", l).map(function(e) {
+                    return this.jsonp.get("#", l).map(function(e) {
                         e.json()
                     }).retry(2).catch(this.handleError)
                 }, e
